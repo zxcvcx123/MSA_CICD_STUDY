@@ -1,0 +1,25 @@
+#로깅 관련
+logging:
+  file:
+    name: logs/api.log    #파일경로
+    max-size: 500MB       #로그파일 최대 사이즈
+    max-history: 10       #최대 보관 일수
+  level:
+    root: info            #기본 로깅레벨
+    org.msa.item: debug   #해당 패키지 내에 로깅을 debug 레벨로 처리
+    
+#JPA
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/msa
+    username: postgres
+    password: 4907
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create   #create: 스키마 자동생성, update: 수정사항만 반영, none: 안함(운영환경에서 사용)
+    show-sql: true       #실행되는 쿼리문 콘솔에 출력 여부
+    propertis:
+      hibernate:
+        format_sql: true  #콘솔에 출력된 쿼리문을 이쁘게 바꿔줌
