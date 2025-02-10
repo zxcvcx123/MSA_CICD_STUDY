@@ -26,6 +26,9 @@ public class Item {
 	@Column(name = "DESCRIPTION", length = 30)
 	private String description;
 	
+	@Column(name = "ITEM_TYPE", length = 1)
+	private String itemType;
+	
 	@Column(name = "CNT", length = 10)
 	private long count;
 	
