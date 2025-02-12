@@ -18,8 +18,19 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: create   #create: 스키마 자동생성, update: 수정사항만 반영, none: 안함(운영환경에서 사용)
-    show-sql: true       #실행되는 쿼리문 콘솔에 출력 여부
+      ddl-auto: create		#create: 스키마 자동생성, update: 수정사항만 반영, none: 안함(운영환경에서 사용)
+    show-sql: true       	#실행되는 쿼리문 콘솔에 출력 여부
     propertis:
       hibernate:
-        format_sql: true  #콘솔에 출력된 쿼리문을 이쁘게 바꿔줌
+        format_sql: true	#콘솔에 출력된 쿼리문을 이쁘게 바꿔줌
+ 
+#SpringDoc
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html  #Swagger UI 경로
+    operations-sorter: alpha  #함수 알파벳 순으로 정렬
+    tags-sorter: alpha  #태그 알파벳 순으로 정렬
+    disable-swagger-default-url: true  #기본 Swagger UI URL 비활성화
+    display-query-params-without-oauth2: true  #OAuth2 없이 URL 쿼리 매개변수 표시
