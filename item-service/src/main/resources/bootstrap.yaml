@@ -1,0 +1,13 @@
+server:
+  port: 5000 # 해당 서비스의 포트
+spring:
+  application:
+    name: item-service # 이 이름기준으로 config server에 있는 설정파일을 찾아감
+  profiles:
+    active: local
+  cloud:
+    config:
+      uri: http://localhost:8080 # config server 접속정보
+    loadbalancer:
+      ribbon:
+        enabled: false

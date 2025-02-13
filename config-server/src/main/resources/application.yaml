@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          # 설정파일들은 해당 path 안에 들어있는걸로 설정 이렇게 되면 application.yaml이 들어있던 리소스안에			
+          # config 폴더안에 있는 설정파일들을 참조하겠다는 의미
+          search-locations: classpath:/config 
+        encrypt:
+          enabled: false
+server:
+  port: 8080

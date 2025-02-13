@@ -23,11 +23,23 @@ repositories {
 	mavenCentral()
 }
 
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:2024.0.0'
+    }
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.7.0'
+	
+	/* config 서버를 이용하기 위해 추가*/
+	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	
+	/* bootstrap yaml 파일을 이용하기 윟해 추가  */
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	
   	runtimeOnly 'org.postgresql:postgresql'
 	compileOnly 'org.projectlombok:lombok'
