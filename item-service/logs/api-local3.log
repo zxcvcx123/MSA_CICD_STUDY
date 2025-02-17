@@ -1,0 +1,4 @@
+2025-02-17T21:13:59.291+09:00  INFO 23876 --- [item-service] [http-nio-5000-exec-2] o.s.boot.SpringApplication               : The following 1 profile is active: "local"
+2025-02-17T21:13:59.295+09:00  INFO 23876 --- [item-service] [http-nio-5000-exec-2] o.s.boot.SpringApplication               : Started application in 0.206 seconds (process running for 73.858)
+2025-02-17T21:13:59.486+09:00  INFO 23876 --- [item-service] [http-nio-5000-exec-2] o.s.cloud.endpoint.RefreshEndpoint       : Refreshed keys : [logging.file.name]
+2025-02-17T21:14:08.412+09:00 DEBUG 23876 --- [item-service] [http-nio-5000-exec-3] org.msa.item.controller.ItemController   : request add item id = 1

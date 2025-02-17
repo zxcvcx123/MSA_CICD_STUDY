@@ -1,7 +1,7 @@
 #로깅 관련
 logging:
   file:
-    name: logs/api-local.log    #파일경로
+    name: logs/api-local3.log    #파일경로
     max-size: 500MB       #로그파일 최대 사이즈
     max-history: 10       #최대 보관 일수
   level:
@@ -14,7 +14,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/msa
     username: postgres
-    password: 4907
+    password: '{cipher}8e50581a2ef14a1b556dd84f90a1eef69d636af6b0d2c12e9c0644ed5e5aafe5'
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
@@ -33,4 +33,9 @@ springdoc:
     operations-sorter: alpha  #함수 알파벳 순으로 정렬
     tags-sorter: alpha  #태그 알파벳 순으로 정렬
     disable-swagger-default-url: true  #기본 Swagger UI URL 비활성화
-    display-query-params-without-oauth2: true  #OAuth2 없이 URL 쿼리 매개변수 표시
+    display-query-params-without-oauth2: true  #OAuth2 없이 URL 쿼리 매개변수 표시	
+
+#암복호화
+token:
+   expiration_time: 86400000
+   secret: SECU100
