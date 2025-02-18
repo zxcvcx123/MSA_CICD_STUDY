@@ -43,6 +43,7 @@ token:
 # Eureka Server
 eureka:
    instance:
+      instance-id: ${spring.cloud.client.hostname}:${spring.application.instance_id:${random.value}} #인스턴스 id 값을 호스트명 + 랜덤포트 값 
       prefer-ip-address: true # 호스트이름이 아닌 ip주소를 이용해 유레카 서버에 등록할 것인지에 대한 여부
    client:
       register-with-eureka: true # 아이템 서비스는 유레카에 등록해야하니깐 true

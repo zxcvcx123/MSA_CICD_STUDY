@@ -1,0 +1,29 @@
+# 로깅 관련
+logging:
+  file:
+    name: logs/gateway.log    #파일경로
+    max-size: 500MB       #로그파일 최대 사이즈
+    max-history: 10       #최대 보관 일수
+  level:
+    root: info            #기본 로깅레벨
+    org.msa.item: debug   #해당 패키지 내에 로깅을 debug 레벨로 처리
+    
+# Spring Gateway
+spring:
+   cloud:
+      gateway:
+         routes:
+         - id: item-service # 어떤 마이크로서비스로 전달할 것인지 (식별id라고보면됨)
+           uri: lb://item-service # 이동할 마이크로 서비스명 (lb = 로드밸런싱 약자) 유레카의 등록된 이름과 맞춰줘야함
+           predicates:
+           - Path=/v1/item/** # 실제 요청들어온 uri 주소 해당 주소로 들어온 경우 item-service 마이크로서비스로 요청을 전달하겠다는 의미
+
+# Eureka Server
+eureka:
+   instance:
+      prefer-ip-address: true # 호스트이름이 아닌 ip주소를 이용해 유레카 서버에 등록할 것인지에 대한 여부
+   client:
+      register-with-eureka: true # 아이템 서비스는 유레카에 등록해야하니깐 true
+      fetch-registry: true # 구동중인 마이크로서비스는 출력되어야 하니깐 true
+      service-url:
+         defaultZone: http://localhost:8761/eureka #유레카주소
