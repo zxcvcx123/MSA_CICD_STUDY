@@ -996,3 +996,225 @@ Caused by: java.lang.InterruptedException: null
 2025-02-18T21:22:05.847+09:00  INFO 37832 --- [gateway-server] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8070 (http)
 2025-02-18T21:22:05.849+09:00  INFO 37832 --- [gateway-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
 2025-02-18T21:22:06.020+09:00  INFO 37832 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : Started GatewayServerApplication in 4.021 seconds (process running for 4.847)
+2025-02-18T21:25:38.558+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-18T21:25:38.559+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2025-02-18T21:25:38.560+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881538560, current=DOWN, previous=UP]
+2025-02-18T21:25:38.560+09:00  INFO 37832 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070: registering service...
+2025-02-18T21:25:38.564+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18T21:25:38.568+09:00  INFO 37832 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 - registration status: 204
+2025-02-18T21:25:38.571+09:00  INFO 37832 --- [gateway-server] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-02-18T21:25:38.667+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-18T21:25:38.672+09:00  WARN 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Failed to stop bean 'reactorResourceFactory'
+
+reactor.core.Exceptions$ReactiveException: java.lang.InterruptedException
+	at reactor.core.Exceptions.propagate(Exceptions.java:410) ~[reactor-core-3.7.2.jar:3.7.2]
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:96) ~[reactor-core-3.7.2.jar:3.7.2]
+	at reactor.core.publisher.Mono.block(Mono.java:1779) ~[reactor-core-3.7.2.jar:3.7.2]
+	at org.springframework.http.client.ReactorResourceFactory.stop(ReactorResourceFactory.java:298) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:120) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:384) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:526) ~[spring-context-6.2.2.jar:6.2.2]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:353) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:253) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1172) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:149) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.4.2.jar:3.4.2]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1048) ~[na:na]
+	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:230) ~[na:na]
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:91) ~[reactor-core-3.7.2.jar:3.7.2]
+	... 52 common frames omitted
+
+2025-02-18T21:25:38.683+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-18T21:25:38.683+09:00  WARN 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator stop interrupted
+2025-02-18T21:25:38.684+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-18T21:25:38.689+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 - deregister  status: 200
+2025-02-18T21:25:38.689+09:00  INFO 37832 --- [gateway-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-18T21:33:49.728+09:00  INFO 5084 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : The following 1 profile is active: "local"
+2025-02-18T21:33:51.611+09:00  INFO 5084 --- [gateway-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=21b00e31-26c9-3e93-a49b-f6a0518d2d88
+2025-02-18T21:33:53.378+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-02-18T21:33:53.379+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-02-18T21:33:53.379+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-02-18T21:33:53.379+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-02-18T21:33:53.379+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-02-18T21:33:53.379+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-02-18T21:33:53.379+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-02-18T21:33:53.379+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-02-18T21:33:53.380+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-02-18T21:33:53.380+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-02-18T21:33:53.380+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-02-18T21:33:53.380+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-02-18T21:33:53.380+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-02-18T21:33:53.380+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-02-18T21:33:54.163+09:00  INFO 5084 --- [gateway-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-02-18T21:33:54.628+09:00  INFO 5084 --- [gateway-server] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-18T21:33:54.675+09:00  WARN 5084 --- [gateway-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-18T21:33:54.776+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-18T21:33:54.815+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-18T21:33:54.820+09:00  INFO 5084 --- [gateway-server] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-18T21:33:54.836+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-18T21:33:54.837+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-18T21:33:54.837+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-18T21:33:54.837+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-18T21:33:54.838+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-18T21:33:54.838+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-18T21:33:54.838+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-18T21:33:55.571+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-18T21:33:55.574+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-18T21:33:55.577+09:00  INFO 5084 --- [gateway-server] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-18T21:33:55.580+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739882035579 with initial instances count: 0
+2025-02-18T21:33:55.585+09:00  INFO 5084 --- [gateway-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVER with eureka with status UP
+2025-02-18T21:33:55.586+09:00  INFO 5084 --- [gateway-server] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739882035586, current=UP, previous=STARTING]
+2025-02-18T21:33:55.589+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070: registering service...
+2025-02-18T21:33:55.790+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 - registration status: 204
+2025-02-18T21:33:55.951+09:00  INFO 5084 --- [gateway-server] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8070 (http)
+2025-02-18T21:33:55.953+09:00  INFO 5084 --- [gateway-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8070
+2025-02-18T21:33:56.276+09:00  INFO 5084 --- [gateway-server] [main] o.m.g.GatewayServerApplication           : Started GatewayServerApplication in 8.895 seconds (process running for 12.03)
+2025-02-18T21:34:22.863+09:00  WARN 5084 --- [gateway-server] [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2025-02-18T21:34:25.575+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-18T21:34:25.576+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-18T21:34:25.576+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-18T21:34:25.576+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-18T21:34:25.576+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-18T21:34:25.576+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-02-18T21:34:25.576+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-18T21:34:25.592+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-18T21:34:28.747+09:00  WARN 5084 --- [gateway-server] [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2025-02-18T21:34:47.284+09:00  WARN 5084 --- [gateway-server] [reactor-http-nio-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: item-service
+2025-02-18T21:38:54.610+09:00  INFO 5084 --- [gateway-server] [reactor-http-nio-5] o.m.gatewayserver.filter.LoggingFilter   : request.id: 3c023907-4, method: POST , url: http://localhost:8070/v1/item/add/C
+2025-02-18T21:38:54.637+09:00  INFO 5084 --- [gateway-server] [boundedElastic-1] o.m.gatewayserver.filter.LoggingFilter   : request.id: 3c023907-4, request body :{
+	"id": "1",
+    "name": "item2",
+    "description": "item 2입니다.",
+    "count": 100
+}
+2025-02-18T21:38:54.849+09:00  INFO 5084 --- [gateway-server] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-18T21:38:55.129+09:00  INFO 5084 --- [gateway-server] [reactor-http-nio-5] o.m.gatewayserver.filter.LoggingFilter   : request.id: 3c023907-4, method: POST, url: http://localhost:8070/v1/item/add/C, 
+response body :{"code":"200","message":"성공"}
+2025-02-18T21:39:12.113+09:00  INFO 5084 --- [gateway-server] [reactor-http-nio-5] o.m.gatewayserver.filter.LoggingFilter   : request.id: 3c023907-5, method: POST , url: http://localhost:8070/v1/item/add/C
+2025-02-18T21:39:12.115+09:00  INFO 5084 --- [gateway-server] [boundedElastic-1] o.m.gatewayserver.filter.LoggingFilter   : request.id: 3c023907-5, request body :{
+	"id": "1",
+    "name": "item2",
+    "description": "item 2입니다.",
+    "count": 100
+}
+2025-02-18T21:39:12.148+09:00  INFO 5084 --- [gateway-server] [reactor-http-nio-5] o.m.gatewayserver.filter.LoggingFilter   : request.id: 3c023907-5, method: POST, url: http://localhost:8070/v1/item/add/C, 
+response body :{"code":"200","message":"성공"}
+2025-02-18T21:39:36.650+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-18T21:39:36.652+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVER with eureka with status DOWN
+2025-02-18T21:39:36.652+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739882376652, current=DOWN, previous=UP]
+2025-02-18T21:39:36.653+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070: registering service...
+2025-02-18T21:39:36.657+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-18T21:39:36.663+09:00  INFO 5084 --- [gateway-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 - registration status: 204
+2025-02-18T21:39:36.664+09:00  INFO 5084 --- [gateway-server] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-02-18T21:39:37.015+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-18T21:39:37.016+09:00  WARN 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Failed to stop bean 'reactorResourceFactory'
+
+reactor.core.Exceptions$ReactiveException: java.lang.InterruptedException
+	at reactor.core.Exceptions.propagate(Exceptions.java:410) ~[reactor-core-3.7.2.jar:3.7.2]
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:96) ~[reactor-core-3.7.2.jar:3.7.2]
+	at reactor.core.publisher.Mono.block(Mono.java:1779) ~[reactor-core-3.7.2.jar:3.7.2]
+	at org.springframework.http.client.ReactorResourceFactory.stop(ReactorResourceFactory.java:298) ~[spring-web-6.2.2.jar:6.2.2]
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:120) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:384) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:526) ~[spring-context-6.2.2.jar:6.2.2]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:353) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:253) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1172) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.doClose(ReactiveWebServerApplicationContext.java:149) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.4.2.jar:3.4.2]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1048) ~[na:na]
+	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:230) ~[na:na]
+	at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:91) ~[reactor-core-3.7.2.jar:3.7.2]
+	... 52 common frames omitted
+
+2025-02-18T21:39:37.031+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-18T21:39:37.031+09:00  WARN 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator stop interrupted
+2025-02-18T21:39:37.031+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-18T21:39:37.039+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 - deregister  status: 200
+2025-02-18T21:39:37.040+09:00  INFO 5084 --- [gateway-server] [RMI TCP Connection(15)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
