@@ -39,3 +39,13 @@ springdoc:
 token:
    expiration_time: 86400000
    secret: SECU100
+   
+# Eureka Server
+eureka:
+   instance:
+      prefer-ip-address: true # 호스트이름이 아닌 ip주소를 이용해 유레카 서버에 등록할 것인지에 대한 여부
+   client:
+      register-with-eureka: true # 아이템 서비스는 유레카에 등록해야하니깐 true
+      fetch-registry: true # 구동중인 마이크로서비스는 출력되어야 하니깐 true
+      service-url:
+         defaultZone: http://localhost:8761/eureka #유레카주소

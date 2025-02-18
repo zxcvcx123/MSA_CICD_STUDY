@@ -1,0 +1,12 @@
+#config 관련 설정
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: local
+  cloud:
+    config:
+      uri: http://localhost:8080
+    loadbalancer:
+      ribbon:
+        enabled: false

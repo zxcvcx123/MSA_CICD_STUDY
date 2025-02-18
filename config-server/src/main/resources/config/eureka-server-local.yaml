@@ -1,0 +1,31 @@
+# log
+logging:
+  file:
+    name: logs/api.log
+    max-size: 500MB
+    max-history: 10
+  level:
+    root: info
+    org.msa.eurekaserver: debug
+
+
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: eureka-server
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    register-with-eureka: false # 유레카 서버에 서버관련 정보 등록 여부 (굳이 자기 자신 상태 볼 이유가 없어서 false)
+    fetch-registry: false # registry에 저장된 내용을 로컬로 캐싱해서 출력할 것인지에 대한 옵션
+
+# Spring Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
