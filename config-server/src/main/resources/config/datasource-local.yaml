@@ -1,0 +1,15 @@
+#JPA
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/msa
+    username: postgres
+    password: '{cipher}8e50581a2ef14a1b556dd84f90a1eef69d636af6b0d2c12e9c0644ed5e5aafe5'
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: create		#create: 스키마 자동생성, update: 수정사항만 반영, none: 안함(운영환경에서 사용)
+    show-sql: true       	#실행되는 쿼리문 콘솔에 출력 여부
+    propertis:
+      hibernate:
+        format_sql: true	#콘솔에 출력된 쿼리문을 이쁘게 바꿔줌

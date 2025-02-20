@@ -6,7 +6,7 @@ logging:
     max-history: 10       #최대 보관 일수
   level:
     root: info            #기본 로깅레벨
-    org.msa.item: debug   #해당 패키지 내에 로깅을 debug 레벨로 처리
+    org.msa.gatewayserver: debug   #해당 패키지 내에 로깅을 debug 레벨로 처리
     
 # Spring Gateway
 spring:

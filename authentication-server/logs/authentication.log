@@ -1,0 +1,449 @@
+2025-02-20T21:10:34.008+09:00  INFO 35428 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:10:34.912+09:00  INFO 35428 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:10:35.185+09:00  INFO 35428 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 260 ms. Found 1 JPA repository interface.
+2025-02-20T21:10:35.687+09:00  INFO 35428 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:10:36.313+09:00  INFO 35428 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:10:36.327+09:00  INFO 35428 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:10:36.328+09:00  INFO 35428 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:10:36.459+09:00  INFO 35428 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:10:36.459+09:00  INFO 35428 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2431 ms
+2025-02-20T21:10:36.564+09:00  WARN 35428 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:10:36.569+09:00  INFO 35428 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:10:36.603+09:00  INFO 35428 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:10:36.648+09:00 ERROR 35428 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:12:16.841+09:00  INFO 11512 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:12:17.407+09:00  INFO 11512 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:12:17.570+09:00  INFO 11512 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interface.
+2025-02-20T21:12:17.809+09:00  INFO 11512 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:12:18.200+09:00  INFO 11512 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:12:18.213+09:00  INFO 11512 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:12:18.214+09:00  INFO 11512 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:12:18.292+09:00  INFO 11512 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:12:18.293+09:00  INFO 11512 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1440 ms
+2025-02-20T21:12:18.351+09:00  WARN 11512 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:12:18.352+09:00  INFO 11512 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:12:18.370+09:00  INFO 11512 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:12:18.391+09:00 ERROR 11512 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:14:40.395+09:00  INFO 38484 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:14:40.917+09:00  INFO 38484 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:14:41.049+09:00  INFO 38484 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
+2025-02-20T21:14:41.276+09:00  INFO 38484 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:14:41.666+09:00  INFO 38484 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:14:41.680+09:00  INFO 38484 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:14:41.680+09:00  INFO 38484 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:14:41.746+09:00  INFO 38484 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:14:41.747+09:00  INFO 38484 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1340 ms
+2025-02-20T21:14:41.805+09:00  WARN 38484 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:14:41.807+09:00  INFO 38484 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:14:41.824+09:00  INFO 38484 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:14:41.845+09:00 ERROR 38484 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:19:05.522+09:00  INFO 33404 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:19:06.042+09:00  INFO 33404 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:19:06.173+09:00  INFO 33404 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interface.
+2025-02-20T21:19:06.424+09:00  INFO 33404 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:19:06.855+09:00  INFO 33404 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:19:06.869+09:00  INFO 33404 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:19:06.871+09:00  INFO 33404 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:19:06.937+09:00  INFO 33404 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:19:06.937+09:00  INFO 33404 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1401 ms
+2025-02-20T21:19:07.000+09:00  WARN 33404 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:19:07.001+09:00  INFO 33404 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:19:07.020+09:00  INFO 33404 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:19:07.044+09:00 ERROR 33404 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:20:53.110+09:00  INFO 27240 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:20:55.113+09:00  INFO 27240 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:20:55.519+09:00  INFO 27240 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 380 ms. Found 1 JPA repository interface.
+2025-02-20T21:20:56.491+09:00  INFO 27240 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:20:57.369+09:00  INFO 27240 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:20:57.400+09:00  INFO 27240 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:20:57.401+09:00  INFO 27240 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:20:57.515+09:00  INFO 27240 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:20:57.516+09:00  INFO 27240 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4381 ms
+2025-02-20T21:20:57.686+09:00  WARN 27240 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:20:57.690+09:00  INFO 27240 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:20:57.735+09:00  INFO 27240 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:20:57.777+09:00 ERROR 27240 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:21:41.503+09:00  INFO 2188 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:21:42.033+09:00  INFO 2188 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:21:42.174+09:00  INFO 2188 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2025-02-20T21:21:42.431+09:00  INFO 2188 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:21:42.850+09:00  INFO 2188 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:21:42.864+09:00  INFO 2188 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:21:42.864+09:00  INFO 2188 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:21:42.932+09:00  INFO 2188 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:21:42.933+09:00  INFO 2188 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1417 ms
+2025-02-20T21:21:42.993+09:00  WARN 2188 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:21:42.995+09:00  INFO 2188 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:21:43.012+09:00  INFO 2188 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:21:43.031+09:00 ERROR 2188 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:23:36.795+09:00  INFO 19828 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:23:37.528+09:00  INFO 19828 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:23:37.754+09:00  INFO 19828 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 1 JPA repository interface.
+2025-02-20T21:23:38.058+09:00  INFO 19828 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:23:38.582+09:00  INFO 19828 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:23:38.603+09:00  INFO 19828 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:23:38.603+09:00  INFO 19828 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:23:38.688+09:00  INFO 19828 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:23:38.688+09:00  INFO 19828 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1873 ms
+2025-02-20T21:23:38.766+09:00  WARN 19828 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:23:38.769+09:00  INFO 19828 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:23:38.789+09:00  INFO 19828 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:23:38.817+09:00 ERROR 19828 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:27:41.305+09:00  INFO 12408 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:27:41.996+09:00  INFO 12408 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:27:42.180+09:00  INFO 12408 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 168 ms. Found 1 JPA repository interface.
+2025-02-20T21:27:42.494+09:00  INFO 12408 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:27:42.999+09:00  INFO 12408 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:27:43.023+09:00  INFO 12408 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:27:43.023+09:00  INFO 12408 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:27:43.106+09:00  INFO 12408 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:27:43.107+09:00  INFO 12408 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1787 ms
+2025-02-20T21:27:43.192+09:00  WARN 12408 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:27:43.194+09:00  INFO 12408 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:27:43.214+09:00  INFO 12408 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:27:43.237+09:00 ERROR 12408 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:28:52.961+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:28:53.616+09:00  INFO 30352 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:28:53.789+09:00  INFO 30352 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 161 ms. Found 1 JPA repository interface.
+2025-02-20T21:28:54.102+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:28:54.604+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:28:54.625+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:28:54.626+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:28:54.704+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:28:54.705+09:00  INFO 30352 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1727 ms
+2025-02-20T21:28:54.896+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-20T21:28:54.995+09:00  INFO 30352 --- [authentication-server] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-20T21:28:55.046+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-20T21:28:55.463+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-20T21:28:55.508+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-20T21:28:55.776+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66abc4b3
+2025-02-20T21:28:55.778+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-20T21:28:55.841+09:00  WARN 30352 --- [authentication-server] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-20T21:28:55.863+09:00  INFO 30352 --- [authentication-server] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-20T21:28:56.969+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-20T21:28:57.032+09:00  INFO 30352 --- [authentication-server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:28:57.382+09:00  WARN 30352 --- [authentication-server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-20T21:28:57.895+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-20T21:28:58.140+09:00  INFO 30352 --- [authentication-server] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-20T21:28:58.216+09:00  WARN 30352 --- [authentication-server] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:28:58.277+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:28:58.307+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:28:58.312+09:00  INFO 30352 --- [authentication-server] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-20T21:28:58.326+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-20T21:28:58.326+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-20T21:28:58.327+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-20T21:28:58.327+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-20T21:28:58.327+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-20T21:28:58.327+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-20T21:28:58.327+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-20T21:28:58.987+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-20T21:28:58.988+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-20T21:28:58.990+09:00  INFO 30352 --- [authentication-server] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-20T21:28:58.994+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740054538992 with initial instances count: 0
+2025-02-20T21:28:58.998+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-SERVER with eureka with status UP
+2025-02-20T21:28:59.000+09:00  INFO 30352 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740054539000, current=UP, previous=STARTING]
+2025-02-20T21:28:59.004+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900: registering service...
+2025-02-20T21:28:59.041+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8900 (http) with context path '/'
+2025-02-20T21:28:59.043+09:00  INFO 30352 --- [authentication-server] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8900
+2025-02-20T21:28:59.179+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 - registration status: 204
+2025-02-20T21:28:59.191+09:00  INFO 30352 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : Started AuthenticationServerApplication in 7.865 seconds (process running for 9.068)
+2025-02-20T21:29:28.995+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-20T21:29:28.996+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-20T21:29:28.996+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-20T21:29:28.997+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-20T21:29:28.997+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-20T21:29:28.997+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-02-20T21:29:28.997+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-20T21:29:29.015+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-20T21:30:40.886+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:30:40.887+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-SERVER with eureka with status DOWN
+2025-02-20T21:30:40.887+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740054640887, current=DOWN, previous=UP]
+2025-02-20T21:30:40.888+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900: registering service...
+2025-02-20T21:30:40.891+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:30:40.896+09:00  INFO 30352 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 - registration status: 204
+2025-02-20T21:30:40.974+09:00  INFO 30352 --- [authentication-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:30:40.979+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:30:40.983+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-20T21:30:40.989+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-20T21:30:40.990+09:00  INFO 30352 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:32:50.910+09:00  INFO 36924 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:32:52.134+09:00  INFO 36924 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:32:52.480+09:00  INFO 36924 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 321 ms. Found 1 JPA repository interface.
+2025-02-20T21:32:53.036+09:00  INFO 36924 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:32:53.878+09:00  INFO 36924 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:32:53.912+09:00  INFO 36924 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:32:53.913+09:00  INFO 36924 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:32:54.092+09:00  INFO 36924 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:32:54.093+09:00  INFO 36924 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3155 ms
+2025-02-20T21:32:54.238+09:00  WARN 36924 --- [authentication-server] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-02-20T21:32:54.243+09:00  INFO 36924 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:32:54.279+09:00  INFO 36924 --- [authentication-server] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-20T21:32:54.324+09:00 ERROR 36924 --- [authentication-server] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles local are currently active).
+
+2025-02-20T21:39:51.994+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : The following 1 profile is active: "local"
+2025-02-20T21:39:53.202+09:00  INFO 19324 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:39:53.474+09:00  INFO 19324 --- [authentication-server] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 246 ms. Found 1 JPA repository interface.
+2025-02-20T21:39:53.943+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d3b19d4c-696f-3ac1-8b62-624cd8d84c8c
+2025-02-20T21:39:54.661+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8900 (http)
+2025-02-20T21:39:54.699+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:39:54.701+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:39:54.860+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:39:54.863+09:00  INFO 19324 --- [authentication-server] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2832 ms
+2025-02-20T21:39:55.181+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-20T21:39:55.279+09:00  INFO 19324 --- [authentication-server] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-20T21:39:55.350+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-20T21:39:55.880+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-20T21:39:55.948+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-20T21:39:56.329+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@566bfa0
+2025-02-20T21:39:56.335+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-20T21:39:56.417+09:00  WARN 19324 --- [authentication-server] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-20T21:39:56.481+09:00  INFO 19324 --- [authentication-server] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-20T21:39:58.419+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-20T21:39:58.505+09:00  INFO 19324 --- [authentication-server] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:39:59.020+09:00  WARN 19324 --- [authentication-server] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-20T21:40:00.097+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-20T21:40:00.494+09:00  INFO 19324 --- [authentication-server] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-20T21:40:00.679+09:00  WARN 19324 --- [authentication-server] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:40:00.853+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:40:00.920+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:40:00.928+09:00  INFO 19324 --- [authentication-server] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-20T21:40:00.982+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-20T21:40:00.983+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-20T21:40:00.983+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-20T21:40:00.983+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-20T21:40:00.983+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-20T21:40:00.983+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-20T21:40:00.983+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-20T21:40:02.109+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-20T21:40:02.110+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-20T21:40:02.114+09:00  INFO 19324 --- [authentication-server] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-20T21:40:02.117+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740055202115 with initial instances count: 0
+2025-02-20T21:40:02.124+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-SERVER with eureka with status UP
+2025-02-20T21:40:02.126+09:00  INFO 19324 --- [authentication-server] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740055202126, current=UP, previous=STARTING]
+2025-02-20T21:40:02.129+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900: registering service...
+2025-02-20T21:40:02.163+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8900 (http) with context path '/'
+2025-02-20T21:40:02.165+09:00  INFO 19324 --- [authentication-server] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8900
+2025-02-20T21:40:02.298+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 - registration status: 204
+2025-02-20T21:40:02.354+09:00  INFO 19324 --- [authentication-server] [restartedMain] o.m.a.AuthenticationServerApplication    : Started AuthenticationServerApplication in 12.845 seconds (process running for 14.458)
+2025-02-20T21:40:32.125+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-20T21:40:32.126+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-20T21:40:32.126+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-20T21:40:32.126+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-20T21:40:32.126+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-20T21:40:32.126+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-02-20T21:40:32.126+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-20T21:40:32.150+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-20T21:45:00.993+09:00  INFO 19324 --- [authentication-server] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-20T21:50:01.000+09:00  INFO 19324 --- [authentication-server] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-20T21:50:22.990+09:00  INFO 19324 --- [authentication-server] [http-nio-8900-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-20T21:50:22.991+09:00  INFO 19324 --- [authentication-server] [http-nio-8900-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-20T21:50:22.993+09:00  INFO 19324 --- [authentication-server] [http-nio-8900-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-20T21:50:23.153+09:00  WARN 19324 --- [authentication-server] [http-nio-8900-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.msa.authentication.dto.ResponseDTO> org.msa.authentication.controller.AuthenticationController.join(org.msa.authentication.dto.AccountDTO) throws java.lang.Exception with 2 errors: [Field error in object 'accountDTO' on field 'accountId': rejected value [null]; codes [NotBlank.accountDTO.accountId,NotBlank.accountId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [accountDTO.accountId,accountId]; arguments []; default message [accountId]]; default message [ID는 필수 입력 값입니다.]] [Field error in object 'accountDTO' on field 'password': rejected value [null]; codes [NotBlank.accountDTO.password,NotBlank.password,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [accountDTO.password,password]; arguments []; default message [password]]; default message [비밀번호는 필수 입력 값입니다.]] ]
+2025-02-20T21:50:45.342+09:00 DEBUG 19324 --- [authentication-server] [http-nio-8900-exec-7] o.m.a.c.AuthenticationController         : join.account.id = admin
+2025-02-20T21:51:00.751+09:00 DEBUG 19324 --- [authentication-server] [http-nio-8900-exec-4] o.m.a.c.AuthenticationController         : join.account.id = admin
+2025-02-20T21:51:16.323+09:00 DEBUG 19324 --- [authentication-server] [http-nio-8900-exec-8] o.m.a.c.AuthenticationController         : token.account.id = admin
+2025-02-20T21:51:32.977+09:00 DEBUG 19324 --- [authentication-server] [http-nio-8900-exec-10] o.m.a.c.AuthenticationController         : token.account.id = admin
+2025-02-20T21:51:37.895+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:51:37.895+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-SERVER with eureka with status DOWN
+2025-02-20T21:51:37.896+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740055897896, current=DOWN, previous=UP]
+2025-02-20T21:51:37.896+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900: registering service...
+2025-02-20T21:51:37.900+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:51:37.907+09:00  INFO 19324 --- [authentication-server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 - registration status: 204
+2025-02-20T21:51:38.074+09:00  INFO 19324 --- [authentication-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:51:38.089+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:51:38.096+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-20T21:51:38.126+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-20T21:51:38.127+09:00  INFO 19324 --- [authentication-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...

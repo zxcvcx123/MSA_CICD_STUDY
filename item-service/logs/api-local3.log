@@ -1,21 +1,21 @@
-2025-02-18T20:51:04.373+09:00  INFO 16144 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T20:51:05.938+09:00  INFO 16144 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T20:51:06.095+09:00  INFO 16144 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
-2025-02-18T20:51:06.414+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T20:51:07.246+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5000 (http)
-2025-02-18T20:51:07.270+09:00  INFO 16144 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T20:51:07.270+09:00  INFO 16144 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T20:51:07.369+09:00  INFO 16144 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T20:51:07.372+09:00  INFO 16144 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2955 ms
-2025-02-18T20:51:07.789+09:00  INFO 16144 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T20:51:07.891+09:00  INFO 16144 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T20:51:07.945+09:00  INFO 16144 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T20:51:08.395+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T20:51:08.436+09:00  INFO 16144 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T20:51:08.708+09:00  INFO 16144 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2171e07a
-2025-02-18T20:51:08.714+09:00  INFO 16144 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T20:51:08.777+09:00  WARN 16144 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T20:51:08.803+09:00  INFO 16144 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-02-20T21:11:19.728+09:00  INFO 27528 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
+2025-02-20T21:11:20.866+09:00  INFO 27528 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:11:20.992+09:00  INFO 27528 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2025-02-20T21:11:21.235+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
+2025-02-20T21:11:21.897+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-02-20T21:11:21.912+09:00  INFO 27528 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:11:21.912+09:00  INFO 27528 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:11:21.984+09:00  INFO 27528 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:11:21.985+09:00  INFO 27528 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2242 ms
+2025-02-20T21:11:22.330+09:00  INFO 27528 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-20T21:11:22.412+09:00  INFO 27528 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-20T21:11:22.454+09:00  INFO 27528 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-20T21:11:22.787+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-20T21:11:22.832+09:00  INFO 27528 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-20T21:11:23.054+09:00  INFO 27528 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f9cb2c7
+2025-02-20T21:11:23.056+09:00  INFO 27528 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-20T21:11:23.112+09:00  WARN 27528 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-20T21:11:23.133+09:00  INFO 27528 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.2
@@ -23,81 +23,67 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-18T20:51:09.885+09:00  INFO 16144 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T20:51:09.961+09:00  INFO 16144 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T20:51:10.605+09:00  WARN 16144 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T20:51:12.047+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-18T20:51:12.199+09:00  INFO 16144 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T20:51:12.290+09:00  WARN 16144 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T20:51:12.311+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T20:51:12.500+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T20:51:12.545+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T20:51:12.550+09:00  INFO 16144 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T20:51:12.559+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T20:51:12.559+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T20:51:12.559+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T20:51:12.559+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T20:51:12.560+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T20:51:12.560+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T20:51:12.560+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T20:51:13.089+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T20:51:13.093+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T20:51:13.096+09:00  INFO 16144 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T20:51:13.101+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739879473097 with initial instances count: 0
-2025-02-18T20:51:13.119+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T20:51:13.121+09:00  INFO 16144 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739879473121, current=UP, previous=STARTING]
-2025-02-18T20:51:13.123+09:00  INFO 16144 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000: registering service...
-2025-02-18T20:51:13.163+09:00  INFO 16144 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5000 (http) with context path '/'
-2025-02-18T20:51:13.164+09:00  INFO 16144 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5000
-2025-02-18T20:51:13.290+09:00  INFO 16144 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000 - registration status: 204
-2025-02-18T20:51:13.319+09:00  INFO 16144 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 10.959 seconds (process running for 12.007)
-2025-02-18T20:51:38.605+09:00  INFO 16144 --- [item-service] [http-nio-5000-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T20:51:38.606+09:00  INFO 16144 --- [item-service] [http-nio-5000-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T20:51:38.610+09:00  INFO 16144 --- [item-service] [http-nio-5000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-02-18T20:51:38.669+09:00  WARN 16144 --- [item-service] [http-nio-5000-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/info.]
-2025-02-18T20:51:39.155+09:00  WARN 16144 --- [item-service] [http-nio-5000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
-2025-02-18T20:51:43.107+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T20:51:43.108+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T20:51:43.108+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T20:51:43.108+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T20:51:43.108+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T20:51:43.108+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
-2025-02-18T20:51:43.108+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T20:51:43.120+09:00  INFO 16144 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T20:51:46.173+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T20:51:46.173+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T20:51:46.174+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739879506174, current=DOWN, previous=UP]
-2025-02-18T20:51:46.174+09:00  INFO 16144 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000: registering service...
-2025-02-18T20:51:46.178+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T20:51:46.183+09:00  INFO 16144 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000 - registration status: 204
-2025-02-18T20:51:46.241+09:00  INFO 16144 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T20:51:46.248+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T20:51:46.251+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T20:51:46.254+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T20:51:46.256+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T20:51:49.263+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-02-18T20:51:49.273+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000 - deregister  status: 200
-2025-02-18T20:51:49.274+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T20:51:49.275+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T20:51:49.276+09:00  INFO 16144 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2025-02-18T21:12:35.890+09:00  INFO 26748 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:12:37.158+09:00  INFO 26748 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:12:37.304+09:00  INFO 26748 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 1 JPA repository interface.
-2025-02-18T21:12:37.592+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:12:38.371+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:12:38.405+09:00  INFO 26748 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:12:38.406+09:00  INFO 26748 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:12:38.518+09:00  INFO 26748 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:12:38.520+09:00  INFO 26748 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2603 ms
-2025-02-18T21:12:38.919+09:00  INFO 26748 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:12:38.983+09:00  INFO 26748 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:12:39.050+09:00  INFO 26748 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:12:39.409+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:12:39.473+09:00  INFO 26748 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:12:39.740+09:00  INFO 26748 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c14e5ba
-2025-02-18T21:12:39.742+09:00  INFO 26748 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:12:39.787+09:00  WARN 26748 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:12:39.810+09:00  INFO 26748 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-02-20T21:11:24.046+09:00  INFO 27528 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-20T21:11:24.102+09:00  INFO 27528 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:11:24.521+09:00  WARN 27528 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-20T21:11:25.606+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-20T21:11:25.714+09:00  INFO 27528 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-20T21:11:25.781+09:00  WARN 27528 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:11:25.792+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-02-20T21:11:25.929+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 56211 (http) with context path '/'
+2025-02-20T21:11:25.930+09:00  INFO 27528 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56211
+2025-02-20T21:11:25.935+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:11:25.961+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:11:25.965+09:00  INFO 27528 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-20T21:11:25.973+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-20T21:11:25.974+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-20T21:11:25.974+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-20T21:11:25.974+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-20T21:11:25.974+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-20T21:11:25.974+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-20T21:11:25.974+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-20T21:11:26.248+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-20T21:11:26.249+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-20T21:11:26.254+09:00  INFO 27528 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-20T21:11:26.256+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740053486255 with initial instances count: 1
+2025-02-20T21:11:26.264+09:00  INFO 27528 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
+2025-02-20T21:11:26.265+09:00  INFO 27528 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740053486265, current=UP, previous=STARTING]
+2025-02-20T21:11:26.266+09:00  INFO 27528 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82: registering service...
+2025-02-20T21:11:26.303+09:00  INFO 27528 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82 - registration status: 204
+2025-02-20T21:11:26.359+09:00  INFO 27528 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 7.825 seconds (process running for 8.777)
+2025-02-20T21:14:31.687+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:14:31.688+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
+2025-02-20T21:14:31.688+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740053671688, current=DOWN, previous=UP]
+2025-02-20T21:14:31.689+09:00  INFO 27528 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82: registering service...
+2025-02-20T21:14:31.691+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:14:31.696+09:00  INFO 27528 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82 - registration status: 204
+2025-02-20T21:14:31.751+09:00  INFO 27528 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:14:31.758+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:14:31.761+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-20T21:14:31.765+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-20T21:14:31.769+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:14:34.771+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-02-20T21:14:34.777+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82 - deregister  status: 200
+2025-02-20T21:14:34.777+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-20T21:14:34.778+09:00  INFO 27528 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:21:52.581+09:00  INFO 37496 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
+2025-02-20T21:21:53.506+09:00  INFO 37496 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-20T21:21:53.637+09:00  INFO 37496 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 1 JPA repository interface.
+2025-02-20T21:21:53.881+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
+2025-02-20T21:21:54.508+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-02-20T21:21:54.522+09:00  INFO 37496 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:21:54.522+09:00  INFO 37496 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:21:54.593+09:00  INFO 37496 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:21:54.594+09:00  INFO 37496 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2003 ms
+2025-02-20T21:21:54.942+09:00  INFO 37496 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-20T21:21:54.997+09:00  INFO 37496 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
+2025-02-20T21:21:55.036+09:00  INFO 37496 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-20T21:21:55.295+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-20T21:21:55.337+09:00  INFO 37496 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-20T21:21:55.518+09:00  INFO 37496 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7593e227
+2025-02-20T21:21:55.520+09:00  INFO 37496 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-20T21:21:55.554+09:00  WARN 37496 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-20T21:21:55.574+09:00  INFO 37496 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.2
@@ -105,797 +91,42 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-02-18T21:12:40.746+09:00  INFO 26748 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:12:40.791+09:00  INFO 26748 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:12:41.256+09:00  WARN 26748 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:12:42.463+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-18T21:12:42.579+09:00  INFO 26748 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:12:42.645+09:00  WARN 26748 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:12:42.657+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:12:42.791+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55324 (http) with context path '/'
-2025-02-18T21:12:42.792+09:00  INFO 26748 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55324
-2025-02-18T21:12:42.796+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:12:42.824+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:12:42.828+09:00  INFO 26748 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:12:42.846+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:12:42.846+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:12:42.847+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:12:42.847+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:12:42.847+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:12:42.847+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:12:42.847+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:12:43.142+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:12:43.143+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:12:43.148+09:00  INFO 26748 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:12:43.150+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739880763149 with initial instances count: 1
-2025-02-18T21:12:43.160+09:00  INFO 26748 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:12:43.161+09:00  INFO 26748 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739880763161, current=UP, previous=STARTING]
-2025-02-18T21:12:43.162+09:00  INFO 26748 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:12:43.205+09:00  INFO 26748 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:12:43.268+09:00  INFO 26748 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 9.236 seconds (process running for 10.37)
-2025-02-18T21:14:02.450+09:00  INFO 26748 --- [item-service] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:14:02.450+09:00  INFO 26748 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:14:02.453+09:00  INFO 26748 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-02-18T21:14:02.516+09:00  WARN 26748 --- [item-service] [http-nio-auto-1-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource actuator/info.]
-2025-02-18T21:14:02.985+09:00  WARN 26748 --- [item-service] [http-nio-auto-1-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
-2025-02-18T21:14:16.183+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:14:16.184+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:14:16.184+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739880856184, current=DOWN, previous=UP]
-2025-02-18T21:14:16.184+09:00  INFO 26748 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:14:16.187+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:14:16.190+09:00  INFO 26748 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:14:16.239+09:00  INFO 26748 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:14:16.245+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:14:16.249+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:14:16.251+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:14:16.252+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:14:19.258+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-02-18T21:14:19.265+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - deregister  status: 200
-2025-02-18T21:14:19.265+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T21:14:19.266+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T21:14:19.267+09:00  INFO 26748 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2025-02-18T21:14:22.461+09:00  INFO 19704 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:14:23.450+09:00  INFO 19704 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:14:23.579+09:00  INFO 19704 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interface.
-2025-02-18T21:14:23.806+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:14:24.424+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:14:24.437+09:00  INFO 19704 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:14:24.437+09:00  INFO 19704 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:14:24.513+09:00  INFO 19704 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:14:24.513+09:00  INFO 19704 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2041 ms
-2025-02-18T21:14:24.833+09:00  INFO 19704 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:14:24.887+09:00  INFO 19704 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:14:24.919+09:00  INFO 19704 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:14:25.191+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:14:25.234+09:00  INFO 19704 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:14:25.422+09:00  INFO 19704 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7593e227
-2025-02-18T21:14:25.423+09:00  INFO 19704 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:14:25.457+09:00  WARN 19704 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:14:25.475+09:00  INFO 19704 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:14:26.277+09:00  INFO 19704 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:14:26.315+09:00  INFO 19704 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:14:26.704+09:00  WARN 19704 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:14:27.763+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-18T21:14:27.865+09:00  INFO 19704 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:14:27.920+09:00  WARN 19704 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:14:27.930+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:14:28.043+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55400 (http) with context path '/'
-2025-02-18T21:14:28.044+09:00  INFO 19704 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55400
-2025-02-18T21:14:28.050+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:14:28.073+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:14:28.077+09:00  INFO 19704 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:14:28.085+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:14:28.085+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:14:28.085+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:14:28.085+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:14:28.085+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:14:28.086+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:14:28.086+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:14:28.344+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:14:28.347+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:14:28.349+09:00  INFO 19704 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:14:28.350+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739880868350 with initial instances count: 2
-2025-02-18T21:14:28.357+09:00  INFO 19704 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:14:28.357+09:00  INFO 19704 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739880868357, current=UP, previous=STARTING]
-2025-02-18T21:14:28.359+09:00  INFO 19704 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:14:28.397+09:00  INFO 19704 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:14:28.452+09:00  INFO 19704 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 7.254 seconds (process running for 8.204)
-2025-02-18T21:15:27.437+09:00  INFO 19704 --- [item-service] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:15:27.437+09:00  INFO 19704 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:15:27.439+09:00  INFO 19704 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-02-18T21:15:27.759+09:00 DEBUG 19704 --- [item-service] [http-nio-auto-1-exec-1] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:15:53.362+09:00  INFO 3772 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:15:54.326+09:00  INFO 3772 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:15:54.463+09:00  INFO 3772 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interface.
-2025-02-18T21:15:54.686+09:00  INFO 3772 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:15:55.337+09:00  INFO 3772 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:15:55.351+09:00  INFO 3772 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:15:55.351+09:00  INFO 3772 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:15:55.431+09:00  INFO 3772 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:15:55.432+09:00  INFO 3772 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2058 ms
-2025-02-18T21:15:55.773+09:00  INFO 3772 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:15:55.833+09:00  INFO 3772 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:15:55.868+09:00  INFO 3772 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:15:56.148+09:00  INFO 3772 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:15:56.192+09:00  INFO 3772 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:15:56.384+09:00  INFO 3772 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7593e227
-2025-02-18T21:15:56.387+09:00  INFO 3772 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:15:56.423+09:00  WARN 3772 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:15:56.442+09:00  INFO 3772 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:15:57.272+09:00  INFO 3772 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:15:57.315+09:00  INFO 3772 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:15:57.736+09:00  WARN 3772 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:15:59.353+09:00  WARN 3772 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-02-18T21:15:59.496+09:00  INFO 3772 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:15:59.586+09:00  WARN 3772 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:15:59.596+09:00  INFO 3772 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:15:59.751+09:00  INFO 3772 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55528 (http) with context path '/'
-2025-02-18T21:15:59.752+09:00  INFO 3772 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55528
-2025-02-18T21:15:59.757+09:00  INFO 3772 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:15:59.790+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:15:59.794+09:00  INFO 3772 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:15:59.803+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:15:59.804+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:15:59.804+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:15:59.804+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:15:59.804+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:15:59.804+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:15:59.804+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:16:00.118+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:16:00.120+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:16:00.124+09:00  INFO 3772 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:16:00.125+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739880960125 with initial instances count: 2
-2025-02-18T21:16:00.135+09:00  INFO 3772 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:16:00.135+09:00  INFO 3772 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739880960135, current=UP, previous=STARTING]
-2025-02-18T21:16:00.136+09:00  INFO 3772 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:16:00.186+09:00  INFO 3772 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:16:00.259+09:00  INFO 3772 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 8.121 seconds (process running for 9.103)
-2025-02-18T21:16:47.368+09:00  INFO 37752 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:16:49.068+09:00  INFO 37752 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:16:49.494+09:00  INFO 37752 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 412 ms. Found 1 JPA repository interface.
-2025-02-18T21:16:50.084+09:00  INFO 37752 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6c6b7a07-2440-3fca-98e8-5f436fbff94b
-2025-02-18T21:16:51.366+09:00  INFO 37752 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:16:51.387+09:00  INFO 37752 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:16:51.387+09:00  INFO 37752 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:16:51.493+09:00  INFO 37752 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:16:51.493+09:00  INFO 37752 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4107 ms
-2025-02-18T21:16:52.118+09:00  INFO 37752 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:16:52.196+09:00  INFO 37752 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:16:52.245+09:00  INFO 37752 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:16:52.647+09:00  INFO 37752 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:16:52.691+09:00  INFO 37752 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:16:53.038+09:00  INFO 37752 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4392a58a
-2025-02-18T21:16:53.041+09:00  INFO 37752 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:16:53.097+09:00  WARN 37752 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:16:53.131+09:00  INFO 37752 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:16:55.048+09:00  INFO 37752 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:16:55.103+09:00  INFO 37752 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:16:55.818+09:00  WARN 37752 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:16:57.449+09:00  WARN 37752 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-02-18T21:16:57.576+09:00  INFO 37752 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:16:57.694+09:00  WARN 37752 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:16:57.711+09:00  INFO 37752 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:16:57.835+09:00  INFO 37752 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55654 (http) with context path '/'
-2025-02-18T21:16:57.837+09:00  INFO 37752 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55654
-2025-02-18T21:16:57.844+09:00  INFO 37752 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:16:57.883+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:16:57.888+09:00  INFO 37752 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:16:57.901+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:16:57.901+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:16:57.901+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:16:57.901+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:16:57.901+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:16:57.901+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:16:57.902+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:16:58.303+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:16:58.306+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:16:58.309+09:00  INFO 37752 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:16:58.311+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739881018310 with initial instances count: 2
-2025-02-18T21:16:58.318+09:00  INFO 37752 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:16:58.319+09:00  INFO 37752 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881018319, current=UP, previous=STARTING]
-2025-02-18T21:16:58.321+09:00  INFO 37752 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:16:58.386+09:00  INFO 37752 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:16:58.446+09:00  INFO 37752 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 14.249 seconds (process running for 15.599)
-2025-02-18T21:17:30.347+09:00  INFO 37640 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:17:31.362+09:00  INFO 37640 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:17:31.522+09:00  INFO 37640 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150 ms. Found 1 JPA repository interface.
-2025-02-18T21:17:31.790+09:00  INFO 37640 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:17:32.489+09:00  INFO 37640 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:17:32.502+09:00  INFO 37640 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:17:32.503+09:00  INFO 37640 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:17:32.584+09:00  INFO 37640 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:17:32.584+09:00  INFO 37640 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2225 ms
-2025-02-18T21:17:32.925+09:00  INFO 37640 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:17:32.983+09:00  INFO 37640 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:17:33.018+09:00  INFO 37640 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:17:33.297+09:00  INFO 37640 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:17:33.340+09:00  INFO 37640 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:17:33.542+09:00  INFO 37640 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2990ce2a
-2025-02-18T21:17:33.544+09:00  INFO 37640 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:17:33.579+09:00  WARN 37640 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:17:33.598+09:00  INFO 37640 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:17:34.384+09:00  INFO 37640 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:17:34.432+09:00  INFO 37640 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:17:34.822+09:00  WARN 37640 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:17:35.918+09:00  WARN 37640 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-02-18T21:17:36.029+09:00  INFO 37640 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:17:36.089+09:00  WARN 37640 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:17:36.098+09:00  INFO 37640 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:17:36.210+09:00  INFO 37640 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55701 (http) with context path '/'
-2025-02-18T21:17:36.212+09:00  INFO 37640 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55701
-2025-02-18T21:17:36.219+09:00  INFO 37640 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:17:36.245+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:17:36.249+09:00  INFO 37640 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:17:36.258+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:17:36.258+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:17:36.258+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:17:36.258+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:17:36.259+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:17:36.259+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:17:36.259+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:17:36.524+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:17:36.527+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:17:36.530+09:00  INFO 37640 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:17:36.532+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739881056532 with initial instances count: 2
-2025-02-18T21:17:36.540+09:00  INFO 37640 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:17:36.541+09:00  INFO 37640 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881056541, current=UP, previous=STARTING]
-2025-02-18T21:17:36.542+09:00  INFO 37640 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:17:36.580+09:00  INFO 37640 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:17:36.641+09:00  INFO 37640 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 7.568 seconds (process running for 8.574)
-2025-02-18T21:19:28.098+09:00  INFO 19704 --- [item-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:20:59.814+09:00  INFO 3772 --- [item-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:21:01.698+09:00  INFO 37356 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:21:03.067+09:00  INFO 37356 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:21:03.226+09:00  INFO 37356 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interface.
-2025-02-18T21:21:03.531+09:00  INFO 37356 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:21:04.285+09:00  INFO 37356 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:21:04.300+09:00  INFO 37356 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:21:04.301+09:00  INFO 37356 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:21:04.386+09:00  INFO 37356 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:21:04.387+09:00  INFO 37356 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2672 ms
-2025-02-18T21:21:04.830+09:00  INFO 37356 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:21:04.894+09:00  INFO 37356 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:21:04.934+09:00  INFO 37356 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:21:05.255+09:00  INFO 37356 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:21:05.450+09:00  INFO 37356 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:21:05.834+09:00  INFO 37356 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@777b8d56
-2025-02-18T21:21:05.837+09:00  INFO 37356 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:21:05.873+09:00  WARN 37356 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:21:05.893+09:00  INFO 37356 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:21:06.870+09:00  INFO 37356 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:21:06.929+09:00  INFO 37356 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:21:07.393+09:00  WARN 37356 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:21:08.764+09:00  WARN 37356 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-02-18T21:21:08.879+09:00  INFO 37356 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:21:08.961+09:00  WARN 37356 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:21:08.971+09:00  INFO 37356 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:21:09.103+09:00  INFO 37356 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55866 (http) with context path '/'
-2025-02-18T21:21:09.104+09:00  INFO 37356 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55866
-2025-02-18T21:21:09.122+09:00  INFO 37356 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:21:09.163+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:21:09.167+09:00  INFO 37356 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:21:09.177+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:21:09.178+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:21:09.178+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:21:09.178+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:21:09.178+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:21:09.178+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:21:09.178+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:21:09.502+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:21:09.504+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:21:09.506+09:00  INFO 37356 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:21:09.511+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739881269508 with initial instances count: 2
-2025-02-18T21:21:09.523+09:00  INFO 37356 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:21:09.524+09:00  INFO 37356 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881269524, current=UP, previous=STARTING]
-2025-02-18T21:21:09.526+09:00  INFO 37356 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:a4ff8986234d4134da1807e51e53cc97: registering service...
-2025-02-18T21:21:09.579+09:00  INFO 37356 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:a4ff8986234d4134da1807e51e53cc97 - registration status: 204
-2025-02-18T21:21:09.639+09:00  INFO 37356 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 9.576 seconds (process running for 10.774)
-2025-02-18T21:21:22.752+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:22.753+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:21:22.753+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881282753, current=DOWN, previous=UP]
-2025-02-18T21:21:22.753+09:00  INFO 19704 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:21:22.755+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:21:22.759+09:00  INFO 19704 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:21:22.813+09:00  INFO 19704 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:21:22.819+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:21:22.824+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:21:22.827+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:21:22.829+09:00  INFO 19704 --- [item-service] [RMI TCP Connection(18)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:21:23.017+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.018+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:21:23.019+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881283019, current=DOWN, previous=UP]
-2025-02-18T21:21:23.019+09:00  INFO 3772 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:21:23.023+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:21:23.024+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.026+09:00  INFO 3772 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:21:23.025+09:00  WARN 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] org.apache.tomcat.util.net.Acceptor      : Interrupt was received while waiting for the acceptor thread [http-nio-auto-1-Acceptor] to stop
-
-java.lang.InterruptedException: null
-	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1081) ~[na:na]
-	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:276) ~[na:na]
-	at org.apache.tomcat.util.net.Acceptor.stopMillis(Acceptor.java:187) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:304) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1432) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:723) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1078) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.core.StandardService.removeConnector(StandardService.java:299) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.lambda$removeServiceConnectors$1(TomcatWebServer.java:173) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.doWithConnectors(TomcatWebServer.java:192) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.removeServiceConnectors(TomcatWebServer.java:170) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:358) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:53) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:120) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:384) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:526) ~[spring-context-6.2.2.jar:6.2.2]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:353) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:253) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1172) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.4.2.jar:3.4.2]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2025-02-18T21:21:23.037+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:21:23.041+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:21:23.046+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:21:23.047+09:00  INFO 3772 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:21:23.352+09:00  INFO 3772 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown aborted with one or more requests still active
-2025-02-18T21:21:23.435+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.436+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:21:23.437+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881283437, current=DOWN, previous=UP]
-2025-02-18T21:21:23.437+09:00  INFO 37640 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0: registering service...
-2025-02-18T21:21:23.439+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.440+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.441+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:21:23.443+09:00  INFO 37640 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 - registration status: 204
-2025-02-18T21:21:23.501+09:00  INFO 37640 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:21:23.508+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:21:23.512+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:21:23.520+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:21:23.522+09:00  INFO 37640 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:21:23.794+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.795+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:21:23.796+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881283796, current=DOWN, previous=UP]
-2025-02-18T21:21:23.796+09:00  INFO 37356 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:a4ff8986234d4134da1807e51e53cc97: registering service...
-2025-02-18T21:21:23.798+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:21:23.803+09:00  INFO 37356 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:a4ff8986234d4134da1807e51e53cc97 - registration status: 204
-2025-02-18T21:21:23.806+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.808+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.809+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:23.808+09:00  WARN 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] org.apache.tomcat.util.net.Acceptor      : Interrupt was received while waiting for the acceptor thread [http-nio-auto-1-Acceptor] to stop
-
-java.lang.InterruptedException: null
-	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1081) ~[na:na]
-	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:276) ~[na:na]
-	at org.apache.tomcat.util.net.Acceptor.stopMillis(Acceptor.java:187) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:304) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1432) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:723) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1078) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.core.StandardService.removeConnector(StandardService.java:299) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.lambda$removeServiceConnectors$1(TomcatWebServer.java:173) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.doWithConnectors(TomcatWebServer.java:192) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.removeServiceConnectors(TomcatWebServer.java:170) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:358) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:53) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:120) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:384) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:526) ~[spring-context-6.2.2.jar:6.2.2]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:353) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:253) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1172) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.4.2.jar:3.4.2]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2025-02-18T21:21:23.820+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:21:23.823+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:21:23.828+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:21:23.829+09:00  INFO 37356 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:21:53.901+09:00  INFO 18028 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:21:54.831+09:00  INFO 18028 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:21:54.962+09:00  INFO 18028 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interface.
-2025-02-18T21:21:55.178+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:21:55.788+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:21:55.802+09:00  INFO 18028 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:21:55.802+09:00  INFO 18028 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:21:55.880+09:00  INFO 18028 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:21:55.880+09:00  INFO 18028 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1969 ms
-2025-02-18T21:21:56.226+09:00  INFO 18028 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:21:56.279+09:00  INFO 18028 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:21:56.314+09:00  INFO 18028 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:21:56.583+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:21:56.619+09:00  INFO 18028 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:21:56.826+09:00  INFO 18028 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52d7231d
-2025-02-18T21:21:56.828+09:00  INFO 18028 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:21:56.865+09:00  WARN 18028 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:21:56.882+09:00  INFO 18028 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:21:57.691+09:00  INFO 18028 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:21:57.738+09:00  INFO 18028 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:21:58.127+09:00  WARN 18028 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:21:59.156+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-18T21:21:59.273+09:00  INFO 18028 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:21:59.354+09:00  WARN 18028 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:21:59.366+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:21:59.480+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 55991 (http) with context path '/'
-2025-02-18T21:21:59.481+09:00  INFO 18028 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 55991
-2025-02-18T21:21:59.486+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:21:59.511+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:21:59.515+09:00  INFO 18028 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:21:59.524+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:21:59.524+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:21:59.524+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:21:59.524+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:21:59.524+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:21:59.524+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:21:59.525+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:21:59.896+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:21:59.897+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:21:59.899+09:00  INFO 18028 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:21:59.901+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739881319900 with initial instances count: 0
-2025-02-18T21:21:59.908+09:00  INFO 18028 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:21:59.908+09:00  INFO 18028 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881319908, current=UP, previous=STARTING]
-2025-02-18T21:21:59.910+09:00  INFO 18028 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:b01e5b7154fe8c2286a19347ce38168b: registering service...
-2025-02-18T21:21:59.994+09:00  INFO 18028 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:b01e5b7154fe8c2286a19347ce38168b - registration status: 204
-2025-02-18T21:22:00.019+09:00  INFO 18028 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 7.3 seconds (process running for 8.261)
-2025-02-18T21:22:09.631+09:00  INFO 2968 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:22:10.624+09:00  INFO 2968 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:22:10.761+09:00  INFO 2968 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
-2025-02-18T21:22:11.020+09:00  INFO 2968 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:22:11.637+09:00  INFO 2968 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:22:11.651+09:00  INFO 2968 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:22:11.651+09:00  INFO 2968 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:22:11.728+09:00  INFO 2968 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:22:11.729+09:00  INFO 2968 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2086 ms
-2025-02-18T21:22:12.057+09:00  INFO 2968 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:22:12.116+09:00  INFO 2968 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:22:12.153+09:00  INFO 2968 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:22:12.461+09:00  INFO 2968 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:22:12.501+09:00  INFO 2968 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:22:12.715+09:00  INFO 2968 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78938933
-2025-02-18T21:22:12.717+09:00  INFO 2968 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:22:12.752+09:00  WARN 2968 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:22:12.773+09:00  INFO 2968 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:22:13.604+09:00  INFO 2968 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:22:13.651+09:00  INFO 2968 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:22:14.063+09:00  WARN 2968 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:22:15.125+09:00  WARN 2968 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-02-18T21:22:15.231+09:00  INFO 2968 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:22:15.298+09:00  WARN 2968 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:22:15.309+09:00  INFO 2968 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:22:15.425+09:00  INFO 2968 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 56045 (http) with context path '/'
-2025-02-18T21:22:15.426+09:00  INFO 2968 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56045
-2025-02-18T21:22:15.433+09:00  INFO 2968 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:22:15.460+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:22:15.463+09:00  INFO 2968 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:22:15.472+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:22:15.472+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:22:15.472+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:22:15.472+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:22:15.472+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:22:15.472+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:22:15.472+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:22:15.749+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:22:15.752+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:22:15.754+09:00  INFO 2968 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:22:15.756+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739881335755 with initial instances count: 1
-2025-02-18T21:22:15.764+09:00  INFO 2968 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:22:15.764+09:00  INFO 2968 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881335764, current=UP, previous=STARTING]
-2025-02-18T21:22:15.767+09:00  INFO 2968 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:7d1cb19b2d6975ade23b83135e8f19d0: registering service...
-2025-02-18T21:22:15.807+09:00  INFO 2968 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:7d1cb19b2d6975ade23b83135e8f19d0 - registration status: 204
-2025-02-18T21:22:15.864+09:00  INFO 2968 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 7.466 seconds (process running for 8.389)
-2025-02-18T21:22:29.902+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:22:29.904+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:22:29.905+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:22:29.905+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:22:29.905+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:22:29.906+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
-2025-02-18T21:22:29.906+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:22:29.927+09:00  INFO 18028 --- [item-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:22:51.963+09:00  INFO 18028 --- [item-service] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:22:51.963+09:00  INFO 18028 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:22:51.969+09:00  INFO 18028 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2025-02-18T21:22:52.277+09:00 DEBUG 18028 --- [item-service] [http-nio-auto-1-exec-1] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:22:54.420+09:00  INFO 2968 --- [item-service] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:22:54.420+09:00  INFO 2968 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:22:54.423+09:00  INFO 2968 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-02-18T21:22:54.784+09:00 DEBUG 2968 --- [item-service] [http-nio-auto-1-exec-1] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:23:10.894+09:00 DEBUG 18028 --- [item-service] [http-nio-auto-1-exec-2] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:23:13.413+09:00 DEBUG 2968 --- [item-service] [http-nio-auto-1-exec-2] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:23:19.775+09:00 DEBUG 18028 --- [item-service] [http-nio-auto-1-exec-3] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:23:39.881+09:00 DEBUG 18028 --- [item-service] [http-nio-auto-1-exec-4] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:23:46.627+09:00 DEBUG 2968 --- [item-service] [http-nio-auto-1-exec-3] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:24:23.038+09:00 DEBUG 18028 --- [item-service] [http-nio-auto-1-exec-5] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:24:30.115+09:00 DEBUG 2968 --- [item-service] [http-nio-auto-1-exec-4] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:25:37.859+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:25:37.861+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:25:37.861+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881537861, current=DOWN, previous=UP]
-2025-02-18T21:25:37.862+09:00  INFO 18028 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:b01e5b7154fe8c2286a19347ce38168b: registering service...
-2025-02-18T21:25:37.865+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:25:37.870+09:00  INFO 18028 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:b01e5b7154fe8c2286a19347ce38168b - registration status: 204
-2025-02-18T21:25:37.935+09:00  INFO 18028 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:25:37.944+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:25:37.948+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:25:37.956+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:25:37.959+09:00  INFO 18028 --- [item-service] [RMI TCP Connection(12)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:25:38.078+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:25:38.080+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:25:38.080+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739881538080, current=DOWN, previous=UP]
-2025-02-18T21:25:38.080+09:00  INFO 2968 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:7d1cb19b2d6975ade23b83135e8f19d0: registering service...
-2025-02-18T21:25:38.084+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:25:38.086+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:25:38.089+09:00  INFO 2968 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:7d1cb19b2d6975ade23b83135e8f19d0 - registration status: 204
-2025-02-18T21:25:38.087+09:00  WARN 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] org.apache.tomcat.util.net.Acceptor      : Interrupt was received while waiting for the acceptor thread [http-nio-auto-1-Acceptor] to stop
-
-java.lang.InterruptedException: null
-	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1081) ~[na:na]
-	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:276) ~[na:na]
-	at org.apache.tomcat.util.net.Acceptor.stopMillis(Acceptor.java:187) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:304) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1432) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:723) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1078) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.apache.catalina.core.StandardService.removeConnector(StandardService.java:299) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.lambda$removeServiceConnectors$1(TomcatWebServer.java:173) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.doWithConnectors(TomcatWebServer.java:192) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.removeServiceConnectors(TomcatWebServer.java:170) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:358) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:53) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:120) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:384) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:526) ~[spring-context-6.2.2.jar:6.2.2]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
-	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:353) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:253) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1172) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-3.4.2.jar:3.4.2]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.2.jar:6.2.2]
-	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.4.2.jar:3.4.2]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2025-02-18T21:25:38.102+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:25:38.108+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:25:38.121+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:25:38.122+09:00  INFO 2968 --- [item-service] [RMI TCP Connection(7)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:34:07.769+09:00  INFO 28240 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : The following 1 profile is active: "local"
-2025-02-18T21:34:10.303+09:00  INFO 28240 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-18T21:34:10.639+09:00  INFO 28240 --- [item-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 307 ms. Found 1 JPA repository interface.
-2025-02-18T21:34:11.304+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd4e0ec5-79a1-31bc-8456-55fbab6204a2
-2025-02-18T21:34:12.873+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2025-02-18T21:34:12.925+09:00  INFO 28240 --- [item-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:34:12.926+09:00  INFO 28240 --- [item-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:34:13.143+09:00  INFO 28240 --- [item-service] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:34:13.144+09:00  INFO 28240 --- [item-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5348 ms
-2025-02-18T21:34:14.074+09:00  INFO 28240 --- [item-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-02-18T21:34:14.248+09:00  INFO 28240 --- [item-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.5.Final
-2025-02-18T21:34:14.343+09:00  INFO 28240 --- [item-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-02-18T21:34:15.239+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-18T21:34:15.324+09:00  INFO 28240 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-18T21:34:15.776+09:00  INFO 28240 --- [item-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@aa15568
-2025-02-18T21:34:15.780+09:00  INFO 28240 --- [item-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-18T21:34:15.894+09:00  WARN 28240 --- [item-service] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-02-18T21:34:15.948+09:00  INFO 28240 --- [item-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-02-18T21:34:18.076+09:00  INFO 28240 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-02-18T21:34:18.166+09:00  INFO 28240 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:34:18.956+09:00  WARN 28240 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-18T21:34:21.459+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-18T21:34:21.702+09:00  INFO 28240 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-02-18T21:34:21.915+09:00  WARN 28240 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:34:21.938+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2025-02-18T21:34:22.202+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 56731 (http) with context path '/'
-2025-02-18T21:34:22.205+09:00  INFO 28240 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56731
-2025-02-18T21:34:22.213+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:34:22.294+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:34:22.302+09:00  INFO 28240 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:34:22.351+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-02-18T21:34:22.352+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-02-18T21:34:22.352+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-02-18T21:34:22.352+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-02-18T21:34:22.352+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-02-18T21:34:22.352+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-02-18T21:34:22.352+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-02-18T21:34:23.193+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-02-18T21:34:23.195+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-02-18T21:34:23.202+09:00  INFO 28240 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-02-18T21:34:23.206+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739882063204 with initial instances count: 1
-2025-02-18T21:34:23.219+09:00  INFO 28240 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
-2025-02-18T21:34:23.222+09:00  INFO 28240 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739882063222, current=UP, previous=STARTING]
-2025-02-18T21:34:23.230+09:00  INFO 28240 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:32459d65f819e01a28b403f0d6d6a428: registering service...
-2025-02-18T21:34:23.339+09:00  INFO 28240 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:32459d65f819e01a28b403f0d6d6a428 - registration status: 204
-2025-02-18T21:34:23.488+09:00  INFO 28240 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 18.291 seconds (process running for 20.14)
-2025-02-18T21:38:54.717+09:00  INFO 28240 --- [item-service] [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:38:54.718+09:00  INFO 28240 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:38:54.721+09:00  INFO 28240 --- [item-service] [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-02-18T21:38:55.096+09:00 DEBUG 28240 --- [item-service] [http-nio-auto-1-exec-1] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:39:12.144+09:00 DEBUG 28240 --- [item-service] [http-nio-auto-1-exec-2] org.msa.item.controller.ItemController   : request add item id = 1
-2025-02-18T21:39:22.363+09:00  INFO 28240 --- [item-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-02-18T21:39:35.770+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:39:35.772+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
-2025-02-18T21:39:35.772+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1739882375772, current=DOWN, previous=UP]
-2025-02-18T21:39:35.772+09:00  INFO 28240 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:32459d65f819e01a28b403f0d6d6a428: registering service...
-2025-02-18T21:39:35.776+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:39:35.783+09:00  INFO 28240 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:32459d65f819e01a28b403f0d6d6a428 - registration status: 204
-2025-02-18T21:39:35.912+09:00  INFO 28240 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:39:35.924+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-18T21:39:35.931+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-18T21:39:35.939+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-18T21:39:35.940+09:00  INFO 28240 --- [item-service] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:21:56.346+09:00  INFO 37496 --- [item-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-20T21:21:56.387+09:00  INFO 37496 --- [item-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:21:56.779+09:00  WARN 37496 --- [item-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-20T21:21:57.875+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-20T21:21:57.984+09:00  INFO 37496 --- [item-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-02-20T21:21:58.044+09:00  WARN 37496 --- [item-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:21:58.054+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-02-20T21:21:58.174+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 56615 (http) with context path '/'
+2025-02-20T21:21:58.175+09:00  INFO 37496 --- [item-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56615
+2025-02-20T21:21:58.181+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:21:58.208+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:21:58.211+09:00  INFO 37496 --- [item-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-02-20T21:21:58.220+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-02-20T21:21:58.221+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-02-20T21:21:58.221+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-02-20T21:21:58.221+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-02-20T21:21:58.221+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-02-20T21:21:58.221+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-02-20T21:21:58.221+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-02-20T21:21:58.597+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-02-20T21:21:58.599+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-02-20T21:21:58.601+09:00  INFO 37496 --- [item-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-02-20T21:21:58.603+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740054118602 with initial instances count: 0
+2025-02-20T21:21:58.611+09:00  INFO 37496 --- [item-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ITEM-SERVICE with eureka with status UP
+2025-02-20T21:21:58.612+09:00  INFO 37496 --- [item-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740054118612, current=UP, previous=STARTING]
+2025-02-20T21:21:58.614+09:00  INFO 37496 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:9cb789a7ea1eb3b76621a213c7de2746: registering service...
+2025-02-20T21:21:58.693+09:00  INFO 37496 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:9cb789a7ea1eb3b76621a213c7de2746 - registration status: 204
+2025-02-20T21:21:58.716+09:00  INFO 37496 --- [item-service] [restartedMain] org.msa.item.ItemServiceApplication      : Started ItemServiceApplication in 7.311 seconds (process running for 8.245)
+2025-02-20T21:22:13.483+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:22:13.484+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ITEM-SERVICE with eureka with status DOWN
+2025-02-20T21:22:13.484+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1740054133484, current=DOWN, previous=UP]
+2025-02-20T21:22:13.485+09:00  INFO 37496 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:9cb789a7ea1eb3b76621a213c7de2746: registering service...
+2025-02-20T21:22:13.486+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:22:13.493+09:00  INFO 37496 --- [item-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ITEM-SERVICE/DESKTOP-NQP2DLJ:9cb789a7ea1eb3b76621a213c7de2746 - registration status: 204
+2025-02-20T21:22:13.560+09:00  INFO 37496 --- [item-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:22:13.569+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-20T21:22:13.573+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-20T21:22:13.577+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-20T21:22:13.579+09:00  INFO 37496 --- [item-service] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...

@@ -1,342 +1,291 @@
-2025-02-18T20:39:23.185+09:00  INFO 1836 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
-2025-02-18T20:39:23.953+09:00  INFO 1836 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
-2025-02-18T20:39:24.176+09:00  INFO 1836 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2025-02-18T20:39:24.188+09:00  INFO 1836 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T20:39:24.189+09:00  INFO 1836 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T20:39:24.264+09:00  INFO 1836 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T20:39:24.265+09:00  INFO 1836 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1069 ms
-2025-02-18T20:39:24.986+09:00  INFO 1836 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2025-02-18T20:39:24.987+09:00  INFO 1836 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2025-02-18T20:39:25.104+09:00  INFO 1836 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2025-02-18T20:39:25.104+09:00  INFO 1836 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2025-02-18T20:39:25.221+09:00  INFO 1836 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-02-18T20:39:25.923+09:00  WARN 1836 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T20:39:25.939+09:00  INFO 1836 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T20:39:25.958+09:00  INFO 1836 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T20:39:25.958+09:00  INFO 1836 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2025-02-18T20:39:25.960+09:00  INFO 1836 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739878765959 with initial instances count: 0
-2025-02-18T20:39:25.992+09:00  INFO 1836 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2025-02-18T20:39:25.993+09:00  WARN 1836 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2025-02-18T20:39:26.002+09:00  INFO 1836 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2025-02-18T20:39:26.002+09:00  INFO 1836 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2025-02-18T20:39:26.015+09:00  INFO 1836 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-02-18T20:39:26.093+09:00  INFO 1836 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
-2025-02-18T20:39:26.108+09:00  INFO 1836 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2025-02-18T20:39:26.109+09:00  INFO 1836 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2025-02-18T20:39:26.109+09:00  INFO 1836 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2025-02-18T20:39:26.109+09:00  INFO 1836 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2025-02-18T20:39:26.110+09:00  INFO 1836 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2025-02-18T20:39:26.112+09:00  INFO 1836 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2025-02-18T20:39:26.121+09:00  INFO 1836 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2025-02-18T20:39:26.122+09:00  INFO 1836 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2025-02-18T20:39:26.212+09:00  INFO 1836 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.329 seconds (process running for 5.09)
-2025-02-18T20:39:45.239+09:00  INFO 1836 --- [eureka-server] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T20:39:45.240+09:00  INFO 1836 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T20:39:45.244+09:00  INFO 1836 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-02-18T20:40:12.439+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T20:40:12.440+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
-2025-02-18T20:40:12.442+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T20:40:12.509+09:00  INFO 1836 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T20:40:12.511+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2025-02-18T20:40:12.511+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T20:40:12.511+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T20:40:12.511+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2025-02-18T20:40:12.511+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T20:40:12.511+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T20:40:12.515+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T20:40:12.515+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T20:40:12.516+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T20:40:12.517+09:00  INFO 1836 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2025-02-18T20:50:52.391+09:00  INFO 8592 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
-2025-02-18T20:50:53.186+09:00  INFO 8592 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
-2025-02-18T20:50:53.413+09:00  INFO 8592 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2025-02-18T20:50:53.427+09:00  INFO 8592 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T20:50:53.428+09:00  INFO 8592 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T20:50:53.506+09:00  INFO 8592 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T20:50:53.506+09:00  INFO 8592 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1104 ms
-2025-02-18T20:50:54.213+09:00  INFO 8592 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2025-02-18T20:50:54.215+09:00  INFO 8592 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2025-02-18T20:50:54.341+09:00  INFO 8592 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2025-02-18T20:50:54.342+09:00  INFO 8592 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2025-02-18T20:50:54.459+09:00  INFO 8592 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-02-18T20:50:55.295+09:00  WARN 8592 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T20:50:55.312+09:00  INFO 8592 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T20:50:55.331+09:00  INFO 8592 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T20:50:55.331+09:00  INFO 8592 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2025-02-18T20:50:55.333+09:00  INFO 8592 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739879455332 with initial instances count: 0
-2025-02-18T20:50:55.378+09:00  INFO 8592 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2025-02-18T20:50:55.380+09:00  WARN 8592 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2025-02-18T20:50:55.390+09:00  INFO 8592 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2025-02-18T20:50:55.391+09:00  INFO 8592 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2025-02-18T20:50:55.397+09:00  INFO 8592 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-02-18T20:50:55.462+09:00  INFO 8592 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
-2025-02-18T20:50:55.472+09:00  INFO 8592 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2025-02-18T20:50:55.473+09:00  INFO 8592 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2025-02-18T20:50:55.473+09:00  INFO 8592 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2025-02-18T20:50:55.473+09:00  INFO 8592 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2025-02-18T20:50:55.473+09:00  INFO 8592 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2025-02-18T20:50:55.475+09:00  INFO 8592 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2025-02-18T20:50:55.484+09:00  INFO 8592 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2025-02-18T20:50:55.485+09:00  INFO 8592 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2025-02-18T20:50:55.568+09:00  INFO 8592 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.381 seconds (process running for 5.179)
-2025-02-18T20:51:12.921+09:00  INFO 8592 --- [eureka-server] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T20:51:12.922+09:00  INFO 8592 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T20:51:12.923+09:00  INFO 8592 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-02-18T20:51:13.283+09:00  INFO 8592 --- [eureka-server] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000 with status UP (replication=false)
-2025-02-18T20:51:46.181+09:00  INFO 8592 --- [eureka-server] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000 with status DOWN (replication=false)
-2025-02-18T20:51:49.270+09:00  INFO 8592 --- [eureka-server] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:5000 (replication=false)
-2025-02-18T20:51:55.474+09:00  INFO 8592 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T20:52:12.805+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T20:52:12.806+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
-2025-02-18T20:52:12.809+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T20:52:12.876+09:00  INFO 8592 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T20:52:12.878+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2025-02-18T20:52:12.879+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T20:52:12.879+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T20:52:12.879+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2025-02-18T20:52:12.879+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T20:52:12.879+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T20:52:12.883+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T20:52:12.883+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T20:52:12.884+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T20:52:12.885+09:00  INFO 8592 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2025-02-18T21:09:12.539+09:00  INFO 15320 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
-2025-02-18T21:09:13.372+09:00  INFO 15320 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
-2025-02-18T21:09:13.645+09:00  INFO 15320 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2025-02-18T21:09:13.660+09:00  INFO 15320 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:09:13.660+09:00  INFO 15320 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:09:13.745+09:00  INFO 15320 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:09:13.745+09:00  INFO 15320 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1191 ms
-2025-02-18T21:09:14.529+09:00  INFO 15320 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2025-02-18T21:09:14.530+09:00  INFO 15320 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2025-02-18T21:09:14.678+09:00  INFO 15320 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2025-02-18T21:09:14.679+09:00  INFO 15320 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2025-02-18T21:09:14.812+09:00  INFO 15320 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-02-18T21:09:15.645+09:00  WARN 15320 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:09:15.664+09:00  INFO 15320 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:09:15.688+09:00  INFO 15320 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:09:15.688+09:00  INFO 15320 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2025-02-18T21:09:15.690+09:00  INFO 15320 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739880555689 with initial instances count: 0
-2025-02-18T21:09:15.728+09:00  INFO 15320 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2025-02-18T21:09:15.731+09:00  WARN 15320 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2025-02-18T21:09:15.750+09:00  INFO 15320 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2025-02-18T21:09:15.751+09:00  INFO 15320 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2025-02-18T21:09:15.759+09:00  INFO 15320 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-02-18T21:09:15.832+09:00  INFO 15320 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
-2025-02-18T21:09:15.842+09:00  INFO 15320 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2025-02-18T21:09:15.843+09:00  INFO 15320 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2025-02-18T21:09:15.844+09:00  INFO 15320 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2025-02-18T21:09:15.844+09:00  INFO 15320 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2025-02-18T21:09:15.844+09:00  INFO 15320 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2025-02-18T21:09:15.846+09:00  INFO 15320 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2025-02-18T21:09:15.858+09:00  INFO 15320 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2025-02-18T21:09:15.859+09:00  INFO 15320 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2025-02-18T21:09:15.951+09:00  INFO 15320 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.749 seconds (process running for 5.652)
-2025-02-18T21:10:15.846+09:00  INFO 15320 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:10:24.274+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:10:24.275+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
-2025-02-18T21:10:24.277+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:10:24.332+09:00  INFO 15320 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:10:24.334+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2025-02-18T21:10:24.335+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:10:24.335+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:10:24.335+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2025-02-18T21:10:24.335+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:10:24.336+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:10:24.339+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:10:24.340+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T21:10:24.341+09:00  INFO 15320 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T21:10:42.038+09:00  INFO 7264 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
-2025-02-18T21:10:42.763+09:00  INFO 7264 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
-2025-02-18T21:10:42.982+09:00  INFO 7264 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2025-02-18T21:10:42.993+09:00  INFO 7264 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:10:42.994+09:00  INFO 7264 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:10:43.071+09:00  INFO 7264 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:10:43.072+09:00  INFO 7264 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
-2025-02-18T21:10:43.749+09:00  INFO 7264 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2025-02-18T21:10:43.751+09:00  INFO 7264 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2025-02-18T21:10:43.890+09:00  INFO 7264 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2025-02-18T21:10:43.890+09:00  INFO 7264 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2025-02-18T21:10:44.009+09:00  INFO 7264 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-02-18T21:10:44.772+09:00  WARN 7264 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:10:44.788+09:00  INFO 7264 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:10:44.809+09:00  INFO 7264 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:10:44.809+09:00  INFO 7264 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2025-02-18T21:10:44.811+09:00  INFO 7264 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739880644810 with initial instances count: 0
-2025-02-18T21:10:44.855+09:00  INFO 7264 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2025-02-18T21:10:44.857+09:00  WARN 7264 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2025-02-18T21:10:44.871+09:00  INFO 7264 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2025-02-18T21:10:44.871+09:00  INFO 7264 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2025-02-18T21:10:44.879+09:00  INFO 7264 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-02-18T21:10:44.941+09:00  INFO 7264 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
-2025-02-18T21:10:44.951+09:00  INFO 7264 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2025-02-18T21:10:44.952+09:00  INFO 7264 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2025-02-18T21:10:44.952+09:00  INFO 7264 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2025-02-18T21:10:44.952+09:00  INFO 7264 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2025-02-18T21:10:44.952+09:00  INFO 7264 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2025-02-18T21:10:44.953+09:00  INFO 7264 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2025-02-18T21:10:44.963+09:00  INFO 7264 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2025-02-18T21:10:44.964+09:00  INFO 7264 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2025-02-18T21:10:45.050+09:00  INFO 7264 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.205 seconds (process running for 5.02)
-2025-02-18T21:11:44.953+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:12:28.743+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:12:28.743+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:12:28.745+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-02-18T21:12:28.936+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status UP (replication=false)
-2025-02-18T21:12:43.203+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status UP (replication=false)
-2025-02-18T21:12:44.957+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2025-02-18T21:13:44.957+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:14:16.189+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status DOWN (replication=false)
-2025-02-18T21:14:19.263+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 (replication=false)
-2025-02-18T21:14:28.396+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status UP (replication=false)
-2025-02-18T21:14:44.970+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2025-02-18T21:15:44.970+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:16:00.184+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status UP (replication=false)
-2025-02-18T21:16:44.975+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
-2025-02-18T21:16:58.383+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status UP (replication=false)
-2025-02-18T21:17:36.578+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status UP (replication=false)
-2025-02-18T21:17:44.976+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:18:44.988+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2025-02-18T21:19:44.989+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:20:44.860+09:00  WARN 7264 --- [eureka-server] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2025-02-18T21:20:44.989+09:00  INFO 7264 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:21:09.576+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:a4ff8986234d4134da1807e51e53cc97 with status UP (replication=false)
-2025-02-18T21:21:22.757+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status DOWN (replication=false)
-2025-02-18T21:21:23.025+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status DOWN (replication=false)
-2025-02-18T21:21:23.442+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:item-service:0 with status DOWN (replication=false)
-2025-02-18T21:21:23.802+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:a4ff8986234d4134da1807e51e53cc97 with status DOWN (replication=false)
-2025-02-18T21:21:24.308+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status DOWN (replication=false)
-2025-02-18T21:21:24.593+09:00  INFO 7264 --- [eureka-server] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 (replication=false)
-2025-02-18T21:21:25.426+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:21:25.427+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
-2025-02-18T21:21:25.429+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:21:25.486+09:00  INFO 7264 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:21:25.489+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2025-02-18T21:21:25.489+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:21:25.489+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:21:25.490+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2025-02-18T21:21:25.490+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:21:25.490+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:21:25.494+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:21:25.494+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T21:21:25.495+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T21:21:25.496+09:00  INFO 7264 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2025-02-18T21:21:43.972+09:00  INFO 36324 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
-2025-02-18T21:21:44.729+09:00  INFO 36324 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
-2025-02-18T21:21:44.960+09:00  INFO 36324 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2025-02-18T21:21:44.972+09:00  INFO 36324 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:21:44.972+09:00  INFO 36324 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:21:45.053+09:00  INFO 36324 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:21:45.054+09:00  INFO 36324 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
-2025-02-18T21:21:45.784+09:00  INFO 36324 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2025-02-18T21:21:45.786+09:00  INFO 36324 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2025-02-18T21:21:45.927+09:00  INFO 36324 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2025-02-18T21:21:45.927+09:00  INFO 36324 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2025-02-18T21:21:46.060+09:00  INFO 36324 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-02-18T21:21:46.830+09:00  WARN 36324 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:21:46.847+09:00  INFO 36324 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:21:46.869+09:00  INFO 36324 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:21:46.869+09:00  INFO 36324 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2025-02-18T21:21:46.871+09:00  INFO 36324 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739881306870 with initial instances count: 0
-2025-02-18T21:21:46.923+09:00  INFO 36324 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2025-02-18T21:21:46.926+09:00  WARN 36324 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2025-02-18T21:21:46.935+09:00  INFO 36324 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2025-02-18T21:21:46.935+09:00  INFO 36324 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2025-02-18T21:21:46.942+09:00  INFO 36324 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-02-18T21:21:47.004+09:00  INFO 36324 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
-2025-02-18T21:21:47.013+09:00  INFO 36324 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2025-02-18T21:21:47.014+09:00  INFO 36324 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2025-02-18T21:21:47.015+09:00  INFO 36324 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2025-02-18T21:21:47.015+09:00  INFO 36324 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2025-02-18T21:21:47.015+09:00  INFO 36324 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2025-02-18T21:21:47.017+09:00  INFO 36324 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2025-02-18T21:21:47.025+09:00  INFO 36324 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2025-02-18T21:21:47.026+09:00  INFO 36324 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2025-02-18T21:21:47.115+09:00  INFO 36324 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.359 seconds (process running for 5.197)
-2025-02-18T21:21:59.798+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:21:59.798+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:21:59.801+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-02-18T21:21:59.990+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:b01e5b7154fe8c2286a19347ce38168b with status UP (replication=false)
-2025-02-18T21:22:05.726+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status UP (replication=false)
-2025-02-18T21:22:15.805+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:7d1cb19b2d6975ade23b83135e8f19d0 with status UP (replication=false)
-2025-02-18T21:22:47.017+09:00  INFO 36324 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:23:47.017+09:00  INFO 36324 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:24:47.029+09:00  INFO 36324 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2025-02-18T21:25:37.867+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:b01e5b7154fe8c2286a19347ce38168b with status DOWN (replication=false)
-2025-02-18T21:25:38.087+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:7d1cb19b2d6975ade23b83135e8f19d0 with status DOWN (replication=false)
-2025-02-18T21:25:38.566+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status DOWN (replication=false)
-2025-02-18T21:25:38.687+09:00  INFO 36324 --- [eureka-server] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 (replication=false)
-2025-02-18T21:25:39.478+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:25:39.480+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
-2025-02-18T21:25:39.482+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:25:39.549+09:00  INFO 36324 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:25:39.551+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2025-02-18T21:25:39.551+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:25:39.552+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:25:39.552+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2025-02-18T21:25:39.552+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:25:39.552+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:25:39.557+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:25:39.557+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T21:25:39.558+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T21:25:39.559+09:00  INFO 36324 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
-2025-02-18T21:33:26.635+09:00  INFO 14528 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
-2025-02-18T21:33:28.174+09:00  INFO 14528 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
-2025-02-18T21:33:28.735+09:00  INFO 14528 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2025-02-18T21:33:28.772+09:00  INFO 14528 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-18T21:33:28.774+09:00  INFO 14528 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-18T21:33:28.991+09:00  INFO 14528 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-18T21:33:28.993+09:00  INFO 14528 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2331 ms
-2025-02-18T21:33:30.645+09:00  INFO 14528 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2025-02-18T21:33:30.647+09:00  INFO 14528 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2025-02-18T21:33:30.981+09:00  INFO 14528 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2025-02-18T21:33:30.981+09:00  INFO 14528 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2025-02-18T21:33:31.249+09:00  INFO 14528 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-02-18T21:33:33.610+09:00  WARN 14528 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-02-18T21:33:33.661+09:00  INFO 14528 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-02-18T21:33:33.733+09:00  INFO 14528 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-02-18T21:33:33.733+09:00  INFO 14528 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2025-02-18T21:33:33.736+09:00  INFO 14528 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1739882013734 with initial instances count: 0
-2025-02-18T21:33:33.855+09:00  INFO 14528 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2025-02-18T21:33:33.861+09:00  WARN 14528 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2025-02-18T21:33:33.885+09:00  INFO 14528 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2025-02-18T21:33:33.886+09:00  INFO 14528 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2025-02-18T21:33:33.901+09:00  INFO 14528 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
-2025-02-18T21:33:34.049+09:00  INFO 14528 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
-2025-02-18T21:33:34.073+09:00  INFO 14528 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2025-02-18T21:33:34.074+09:00  INFO 14528 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2025-02-18T21:33:34.074+09:00  INFO 14528 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2025-02-18T21:33:34.074+09:00  INFO 14528 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2025-02-18T21:33:34.075+09:00  INFO 14528 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2025-02-18T21:33:34.078+09:00  INFO 14528 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2025-02-18T21:33:34.096+09:00  INFO 14528 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2025-02-18T21:33:34.097+09:00  INFO 14528 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2025-02-18T21:33:34.288+09:00  INFO 14528 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 10.14 seconds (process running for 11.636)
-2025-02-18T21:33:55.348+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-18T21:33:55.348+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-18T21:33:55.351+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-02-18T21:33:55.783+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status UP (replication=false)
-2025-02-18T21:34:23.334+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:32459d65f819e01a28b403f0d6d6a428 with status UP (replication=false)
-2025-02-18T21:34:34.076+09:00  INFO 14528 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:35:34.080+09:00  INFO 14528 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
-2025-02-18T21:36:34.080+09:00  INFO 14528 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:37:34.087+09:00  INFO 14528 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2025-02-18T21:38:34.088+09:00  INFO 14528 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2025-02-18T21:39:34.100+09:00  INFO 14528 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2025-02-18T21:39:35.781+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:32459d65f819e01a28b403f0d6d6a428 with status DOWN (replication=false)
-2025-02-18T21:39:36.661+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status DOWN (replication=false)
-2025-02-18T21:39:37.037+09:00  INFO 14528 --- [eureka-server] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 (replication=false)
-2025-02-18T21:39:37.638+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-02-18T21:39:37.640+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
-2025-02-18T21:39:37.644+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-18T21:39:37.752+09:00  INFO 14528 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-18T21:39:37.755+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2025-02-18T21:39:37.755+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:39:37.755+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:39:37.755+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2025-02-18T21:39:37.756+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2025-02-18T21:39:37.756+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2025-02-18T21:39:37.761+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-02-18T21:39:37.762+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2025-02-18T21:39:37.763+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-02-18T21:39:37.766+09:00  INFO 14528 --- [eureka-server] [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-20T21:09:56.084+09:00  INFO 24500 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2025-02-20T21:09:56.866+09:00  INFO 24500 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
+2025-02-20T21:09:57.084+09:00  INFO 24500 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2025-02-20T21:09:57.097+09:00  INFO 24500 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:09:57.098+09:00  INFO 24500 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:09:57.188+09:00  INFO 24500 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:09:57.189+09:00  INFO 24500 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1087 ms
+2025-02-20T21:09:57.974+09:00  INFO 24500 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-02-20T21:09:57.975+09:00  INFO 24500 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-02-20T21:09:58.125+09:00  INFO 24500 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-02-20T21:09:58.125+09:00  INFO 24500 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-02-20T21:09:58.287+09:00  INFO 24500 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-20T21:09:59.124+09:00  WARN 24500 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:09:59.146+09:00  INFO 24500 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:09:59.172+09:00  INFO 24500 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:09:59.173+09:00  INFO 24500 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-02-20T21:09:59.175+09:00  INFO 24500 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740053399174 with initial instances count: 0
+2025-02-20T21:09:59.230+09:00  INFO 24500 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-02-20T21:09:59.233+09:00  WARN 24500 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:09:59.250+09:00  INFO 24500 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-02-20T21:09:59.250+09:00  INFO 24500 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-02-20T21:09:59.257+09:00  INFO 24500 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
+2025-02-20T21:09:59.320+09:00  INFO 24500 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2025-02-20T21:09:59.335+09:00  INFO 24500 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-02-20T21:09:59.336+09:00  INFO 24500 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-02-20T21:09:59.336+09:00  INFO 24500 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-02-20T21:09:59.336+09:00  INFO 24500 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-02-20T21:09:59.336+09:00  INFO 24500 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-02-20T21:09:59.338+09:00  INFO 24500 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-02-20T21:09:59.343+09:00  INFO 24500 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2025-02-20T21:09:59.343+09:00  INFO 24500 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2025-02-20T21:09:59.427+09:00  INFO 24500 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.623 seconds (process running for 5.529)
+2025-02-20T21:10:27.714+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-20T21:10:27.714+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-20T21:10:27.716+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-20T21:10:28.023+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status UP (replication=false)
+2025-02-20T21:10:59.349+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:11:26.301+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82 with status UP (replication=false)
+2025-02-20T21:11:59.348+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:12:59.351+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-02-20T21:13:59.361+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2025-02-20T21:14:31.695+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82 with status DOWN (replication=false)
+2025-02-20T21:14:34.775+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance ITEM-SERVICE/DESKTOP-NQP2DLJ:8552c08a77a429245b56b734ebf46c82 (replication=false)
+2025-02-20T21:14:59.361+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:15:59.362+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:16:59.373+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2025-02-20T21:17:59.374+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-02-20T21:18:59.384+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2025-02-20T21:19:59.246+09:00  WARN 24500 --- [eureka-server] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:19:59.398+09:00  INFO 24500 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2025-02-20T21:20:10.787+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 with status DOWN (replication=false)
+2025-02-20T21:20:15.829+09:00  INFO 24500 --- [eureka-server] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance GATEWAY-SERVER/DESKTOP-NQP2DLJ:gateway-server:8070 (replication=false)
+2025-02-20T21:20:16.411+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:20:16.412+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2025-02-20T21:20:16.414+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:20:16.475+09:00  INFO 24500 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:20:16.478+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-02-20T21:20:16.478+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:20:16.478+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:20:16.478+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-02-20T21:20:16.479+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:20:16.479+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:20:16.483+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:20:16.483+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-20T21:20:16.484+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:20:16.485+09:00  INFO 24500 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-20T21:20:33.857+09:00  INFO 14796 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2025-02-20T21:20:34.626+09:00  INFO 14796 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
+2025-02-20T21:20:34.874+09:00  INFO 14796 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2025-02-20T21:20:34.888+09:00  INFO 14796 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:20:34.888+09:00  INFO 14796 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:20:34.967+09:00  INFO 14796 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:20:34.967+09:00  INFO 14796 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2025-02-20T21:20:35.671+09:00  INFO 14796 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-02-20T21:20:35.672+09:00  INFO 14796 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-02-20T21:20:35.812+09:00  INFO 14796 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-02-20T21:20:35.812+09:00  INFO 14796 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-02-20T21:20:35.947+09:00  INFO 14796 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-20T21:20:36.701+09:00  WARN 14796 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:20:36.721+09:00  INFO 14796 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:20:36.742+09:00  INFO 14796 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:20:36.742+09:00  INFO 14796 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-02-20T21:20:36.744+09:00  INFO 14796 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740054036743 with initial instances count: 0
+2025-02-20T21:20:36.778+09:00  INFO 14796 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-02-20T21:20:36.780+09:00  WARN 14796 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:20:36.796+09:00  INFO 14796 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-02-20T21:20:36.796+09:00  INFO 14796 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-02-20T21:20:36.806+09:00  INFO 14796 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
+2025-02-20T21:20:36.876+09:00  INFO 14796 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2025-02-20T21:20:36.885+09:00  INFO 14796 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-02-20T21:20:36.886+09:00  INFO 14796 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-02-20T21:20:36.886+09:00  INFO 14796 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-02-20T21:20:36.886+09:00  INFO 14796 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-02-20T21:20:36.886+09:00  INFO 14796 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-02-20T21:20:36.888+09:00  INFO 14796 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-02-20T21:20:36.896+09:00  INFO 14796 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2025-02-20T21:20:36.896+09:00  INFO 14796 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2025-02-20T21:20:36.979+09:00  INFO 14796 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.443 seconds (process running for 5.256)
+2025-02-20T21:21:36.887+09:00  INFO 14796 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:21:58.502+09:00  INFO 14796 --- [eureka-server] [http-nio-8761-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-20T21:21:58.502+09:00  INFO 14796 --- [eureka-server] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-20T21:21:58.504+09:00  INFO 14796 --- [eureka-server] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-20T21:21:58.689+09:00  INFO 14796 --- [eureka-server] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:9cb789a7ea1eb3b76621a213c7de2746 with status UP (replication=false)
+2025-02-20T21:22:13.491+09:00  INFO 14796 --- [eureka-server] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance ITEM-SERVICE/DESKTOP-NQP2DLJ:9cb789a7ea1eb3b76621a213c7de2746 with status DOWN (replication=false)
+2025-02-20T21:22:14.066+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:22:14.067+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2025-02-20T21:22:14.069+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:22:14.129+09:00  INFO 14796 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:22:14.131+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-02-20T21:22:14.131+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:22:14.132+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:22:14.132+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-02-20T21:22:14.133+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:22:14.133+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:22:14.137+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:22:14.138+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-20T21:22:14.139+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:22:14.140+09:00  INFO 14796 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-20T21:22:57.939+09:00  INFO 27344 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2025-02-20T21:22:58.655+09:00  INFO 27344 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
+2025-02-20T21:22:58.883+09:00  INFO 27344 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2025-02-20T21:22:58.896+09:00  INFO 27344 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:22:58.896+09:00  INFO 27344 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:22:58.968+09:00  INFO 27344 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:22:58.968+09:00  INFO 27344 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
+2025-02-20T21:22:59.648+09:00  INFO 27344 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-02-20T21:22:59.650+09:00  INFO 27344 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-02-20T21:22:59.777+09:00  INFO 27344 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-02-20T21:22:59.777+09:00  INFO 27344 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-02-20T21:22:59.895+09:00  INFO 27344 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-20T21:23:00.716+09:00  WARN 27344 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:23:00.732+09:00  INFO 27344 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:23:00.754+09:00  INFO 27344 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:23:00.755+09:00  INFO 27344 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-02-20T21:23:00.757+09:00  INFO 27344 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740054180756 with initial instances count: 0
+2025-02-20T21:23:00.809+09:00  INFO 27344 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-02-20T21:23:00.812+09:00  WARN 27344 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:23:00.826+09:00  INFO 27344 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-02-20T21:23:00.826+09:00  INFO 27344 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-02-20T21:23:00.833+09:00  INFO 27344 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
+2025-02-20T21:23:00.895+09:00  INFO 27344 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2025-02-20T21:23:00.905+09:00  INFO 27344 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-02-20T21:23:00.905+09:00  INFO 27344 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-02-20T21:23:00.906+09:00  INFO 27344 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-02-20T21:23:00.906+09:00  INFO 27344 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-02-20T21:23:00.906+09:00  INFO 27344 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-02-20T21:23:00.908+09:00  INFO 27344 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-02-20T21:23:00.916+09:00  INFO 27344 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2025-02-20T21:23:00.917+09:00  INFO 27344 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2025-02-20T21:23:00.999+09:00  INFO 27344 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 4.19 seconds (process running for 4.955)
+2025-02-20T21:23:58.396+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:23:58.397+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2025-02-20T21:23:58.400+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:23:58.479+09:00  INFO 27344 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:23:58.483+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-02-20T21:23:58.483+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:23:58.483+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:23:58.483+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-02-20T21:23:58.484+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:23:58.484+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:23:58.488+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:23:58.489+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-20T21:23:58.490+09:00  INFO 27344 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:27:31.118+09:00  INFO 38360 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2025-02-20T21:27:32.200+09:00  INFO 38360 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
+2025-02-20T21:27:32.523+09:00  INFO 38360 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2025-02-20T21:27:32.546+09:00  INFO 38360 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:27:32.546+09:00  INFO 38360 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:27:32.635+09:00  INFO 38360 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:27:32.636+09:00  INFO 38360 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1500 ms
+2025-02-20T21:27:33.554+09:00  INFO 38360 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-02-20T21:27:33.556+09:00  INFO 38360 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-02-20T21:27:33.734+09:00  INFO 38360 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-02-20T21:27:33.735+09:00  INFO 38360 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-02-20T21:27:33.908+09:00  INFO 38360 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-20T21:27:34.915+09:00  WARN 38360 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:27:34.940+09:00  INFO 38360 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:27:34.968+09:00  INFO 38360 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:27:34.969+09:00  INFO 38360 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-02-20T21:27:34.972+09:00  INFO 38360 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740054454971 with initial instances count: 0
+2025-02-20T21:27:35.031+09:00  INFO 38360 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-02-20T21:27:35.035+09:00  WARN 38360 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:27:35.053+09:00  INFO 38360 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-02-20T21:27:35.054+09:00  INFO 38360 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-02-20T21:27:35.065+09:00  INFO 38360 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
+2025-02-20T21:27:35.160+09:00  INFO 38360 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2025-02-20T21:27:35.175+09:00  INFO 38360 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-02-20T21:27:35.175+09:00  INFO 38360 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-02-20T21:27:35.176+09:00  INFO 38360 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-02-20T21:27:35.176+09:00  INFO 38360 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-02-20T21:27:35.176+09:00  INFO 38360 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-02-20T21:27:35.179+09:00  INFO 38360 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-02-20T21:27:35.188+09:00  INFO 38360 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2025-02-20T21:27:35.189+09:00  INFO 38360 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2025-02-20T21:27:35.316+09:00  INFO 38360 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 5.74 seconds (process running for 6.721)
+2025-02-20T21:28:35.182+09:00  INFO 38360 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:28:58.726+09:00  INFO 38360 --- [eureka-server] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-20T21:28:58.726+09:00  INFO 38360 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-20T21:28:58.731+09:00  INFO 38360 --- [eureka-server] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-02-20T21:28:59.173+09:00  INFO 38360 --- [eureka-server] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 with status UP (replication=false)
+2025-02-20T21:29:35.182+09:00  INFO 38360 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:30:35.186+09:00  INFO 38360 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-02-20T21:30:40.894+09:00  INFO 38360 --- [eureka-server] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 with status DOWN (replication=false)
+2025-02-20T21:30:42.703+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:30:42.704+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2025-02-20T21:30:42.707+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:30:42.790+09:00  INFO 38360 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:30:42.795+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-02-20T21:30:42.796+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:30:42.797+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:30:42.797+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-02-20T21:30:42.798+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:30:42.798+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:30:42.803+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:30:42.803+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-20T21:30:42.804+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:30:42.805+09:00  INFO 38360 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-02-20T21:31:24.948+09:00  INFO 39544 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : The following 1 profile is active: "local"
+2025-02-20T21:31:26.316+09:00  INFO 39544 --- [eureka-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=728e8535-72b6-31cc-89e8-93d846d818b6
+2025-02-20T21:31:26.774+09:00  INFO 39544 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2025-02-20T21:31:26.811+09:00  INFO 39544 --- [eureka-server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-20T21:31:26.813+09:00  INFO 39544 --- [eureka-server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-20T21:31:26.979+09:00  INFO 39544 --- [eureka-server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-20T21:31:26.980+09:00  INFO 39544 --- [eureka-server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2015 ms
+2025-02-20T21:31:28.588+09:00  INFO 39544 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-02-20T21:31:28.591+09:00  INFO 39544 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-02-20T21:31:28.886+09:00  INFO 39544 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-02-20T21:31:28.887+09:00  INFO 39544 --- [eureka-server] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-02-20T21:31:29.192+09:00  INFO 39544 --- [eureka-server] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-02-20T21:31:30.772+09:00  WARN 39544 --- [eureka-server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-20T21:31:30.810+09:00  INFO 39544 --- [eureka-server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-02-20T21:31:30.859+09:00  INFO 39544 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-02-20T21:31:30.860+09:00  INFO 39544 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-02-20T21:31:30.863+09:00  INFO 39544 --- [eureka-server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1740054690862 with initial instances count: 0
+2025-02-20T21:31:30.964+09:00  INFO 39544 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-02-20T21:31:30.967+09:00  WARN 39544 --- [eureka-server] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:31:30.993+09:00  INFO 39544 --- [eureka-server] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-02-20T21:31:30.994+09:00  INFO 39544 --- [eureka-server] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-02-20T21:31:31.013+09:00  INFO 39544 --- [eureka-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoints beneath base path '/actuator'
+2025-02-20T21:31:31.170+09:00  INFO 39544 --- [eureka-server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2025-02-20T21:31:31.191+09:00  INFO 39544 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-02-20T21:31:31.192+09:00  INFO 39544 --- [eureka-server] [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-02-20T21:31:31.192+09:00  INFO 39544 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-02-20T21:31:31.192+09:00  INFO 39544 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-02-20T21:31:31.192+09:00  INFO 39544 --- [eureka-server] [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-02-20T21:31:31.197+09:00  INFO 39544 --- [eureka-server] [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-02-20T21:31:31.212+09:00  INFO 39544 --- [eureka-server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2025-02-20T21:31:31.215+09:00  INFO 39544 --- [eureka-server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2025-02-20T21:31:31.364+09:00  INFO 39544 --- [eureka-server] [main] o.m.e.EurekaServerApplication            : Started EurekaServerApplication in 8.623 seconds (process running for 9.909)
+2025-02-20T21:32:31.206+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:33:31.206+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:34:31.209+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-02-20T21:35:31.211+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-02-20T21:36:31.211+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:37:31.226+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
+2025-02-20T21:38:31.226+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:39:31.227+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:40:01.823+09:00  INFO 39544 --- [eureka-server] [http-nio-8761-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-20T21:40:01.824+09:00  INFO 39544 --- [eureka-server] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-20T21:40:01.831+09:00  INFO 39544 --- [eureka-server] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-02-20T21:40:02.290+09:00  INFO 39544 --- [eureka-server] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 with status UP (replication=false)
+2025-02-20T21:40:31.236+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2025-02-20T21:41:30.971+09:00  WARN 39544 --- [eureka-server] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:41:31.237+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:42:31.244+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2025-02-20T21:43:31.245+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:44:31.252+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2025-02-20T21:45:31.259+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2025-02-20T21:46:31.007+09:00  INFO 39544 --- [eureka-server] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2025-02-20T21:46:31.261+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-02-20T21:47:31.261+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:48:31.262+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:49:31.263+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-02-20T21:50:31.264+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:51:30.973+09:00  WARN 39544 --- [eureka-server] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-02-20T21:51:31.264+09:00  INFO 39544 --- [eureka-server] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-02-20T21:51:37.905+09:00  INFO 39544 --- [eureka-server] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance AUTHENTICATION-SERVER/DESKTOP-NQP2DLJ:authentication-server:8900 with status DOWN (replication=false)
+2025-02-20T21:51:38.940+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-02-20T21:51:38.942+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2025-02-20T21:51:38.946+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-20T21:51:39.077+09:00  INFO 39544 --- [eureka-server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-20T21:51:39.090+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-02-20T21:51:39.091+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:51:39.091+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:51:39.091+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-02-20T21:51:39.091+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-02-20T21:51:39.092+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-02-20T21:51:39.099+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-02-20T21:51:39.099+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-02-20T21:51:39.101+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-02-20T21:51:39.103+09:00  INFO 39544 --- [eureka-server] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
