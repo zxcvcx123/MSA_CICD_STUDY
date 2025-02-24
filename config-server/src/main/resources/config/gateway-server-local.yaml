@@ -10,6 +10,9 @@ logging:
     
 # Spring Gateway
 spring:
+   config:
+      import:
+         - classpath:/config/datasource-local.yaml
    cloud:
       gateway:
          routes:
