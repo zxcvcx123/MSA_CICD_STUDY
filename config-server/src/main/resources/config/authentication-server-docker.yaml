@@ -1,0 +1,23 @@
+logging:
+  file:
+    name: logs/authentication.log
+    max-size: 500MB
+    max-history: 10
+  level:
+    root: info
+    org.msa.authentication: debug
+
+#JPA
+spring:
+  config:
+    import:
+      - classpath:/config/datasource-docker.yaml # jpa db연동 설정은 해당 path 에서 가져온다
+    
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka:8761/eureka

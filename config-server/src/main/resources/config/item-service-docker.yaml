@@ -12,7 +12,7 @@ logging:
 spring:
   config:
     import:
-      - classpath:/config/datasource-docker.yaml # jpa db연동 설정은 해당 path 에서 가져온다
+      - classpath:/config/datasource-local.yaml # jpa db연동 설정은 해당 path 에서 가져온다
  
 #SpringDoc
 springdoc:
@@ -39,4 +39,4 @@ eureka:
       register-with-eureka: true # 아이템 서비스는 유레카에 등록해야하니깐 true
       fetch-registry: true # 구동중인 마이크로서비스는 출력되어야 하니깐 true
       service-url:
-         defaultZone: http://eureka:8761/eureka #유레카주소
+         defaultZone: http://localhost:8761/eureka #유레카주소

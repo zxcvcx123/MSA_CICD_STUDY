@@ -1,0 +1,14 @@
+#config 관련 설정
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: docker
+  cloud:
+    config:
+      # ip주소가 아닌 config-server인 이유는 처음에 msa-network로 네트워크 설정할 때 해당 설정에 같이 속해있는 경우
+      # 설정해놓은 서버명으로 컨테이너 정보를 찾고 그 컨테이너 정보로 연결됨
+      uri: http://config-server:8080 
+    loadbalancer:
+      ribbon:
+        enabled: false
